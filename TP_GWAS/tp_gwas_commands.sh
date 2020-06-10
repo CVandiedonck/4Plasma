@@ -1,6 +1,6 @@
 # Merge cases and controls files
-plink -bfile input/ic_cases --make-bed --out output/ic_cases
-plink -bfile input/ic_controls --make-bed --out output/ic_controls
+plink --bfile input/ic_cases --make-bed --out output/ic_cases
+plink --bfile input/ic_controls --make-bed --out output/ic_controls
 plink --bfile output/ic_cases --exclude input/toexclude.txt --make-bed --out output/ic_cases_autosomes
 plink --bfile output/ic_controls --bmerge output/ic_cases_autosomes.bed output/ic_cases_autosomes.bim output/ic_cases_autosomes.fam --make-bed --out output/t1dcc
 plink --bfile output/ic_controls --exclude input/rs3754055.txt --make-bed --out input/ic_controls2
