@@ -1,0 +1,27 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --adjust
+  --bfile input/ic_trio
+  --out output/tdttrio
+  --tdt
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:51:01 2020
+
+Random number seed: 1591807861
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+140197 variants loaded from .bim file.
+685 people (359 males, 326 females) loaded from .fam.
+685 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 284 founders and 401 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.913213.
+140197 variants and 685 people pass filters and QC.
+Among remaining phenotypes, 241 are cases and 444 are controls.
+--tdt: Report written to output/tdttrio.tdt .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.16648.
+--adjust values (140196 variants) written to output/tdttrio.tdt.adjusted .
+
+End time: Wed Jun 10 18:51:02 2020

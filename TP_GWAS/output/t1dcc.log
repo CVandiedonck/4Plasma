@@ -1,0 +1,1599 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --bfile output/ic_controls_flipped
+  --bmerge input/ic_cases_autosomes2.bed input/ic_cases_autosomes2.bim input/ic_cases_autosomes2.fam
+  --make-bed
+  --out output/t1dcc
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:21:28 2020
+
+Random number seed: 1591806088
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+357 people loaded from output/ic_controls_flipped.fam.
+241 people to be merged from input/ic_cases_autosomes2.fam.
+Of these, 241 are new, while 0 are present in the base dataset.
+116513 markers loaded from output/ic_controls_flipped.bim.
+191986 markers to be merged from input/ic_cases_autosomes2.bim.
+Of these, 76160 are new, while 115826 are present in the base dataset.
+Warning: Variants 'rs3748816_dup' and 'rs3748816' have the same position.
+Warning: Variants 'rs146106400' and 'imm_1_2571944' have the same position.
+Warning: Variants 'rs147517259' and 'imm_1_2711381' have the same position.
+Warning: Variants 'rs147295254' and 'imm_1_2764101' have the same position.
+Warning: Variants 'rs144486552' and 'imm_1_7831497' have the same position.
+Warning: Variants 'rs150648343' and 'imm_1_11638654' have the same position.
+Warning: Variants 'rs138838625' and 'imm_1_25117672' have the same position.
+Warning: Variants 'rs143685616' and 'ccc-1-67476737-A-G' have the same
+position.
+Warning: Variants 'rs144772573' and 'ccc-1-67522066-G-A' have the same
+position.
+Warning: Variants 'rs12131065_dup' and 'rs12131065' have the same position.
+Warning: Variants 'rs3790567_dup' and 'rs3790567' have the same position.
+Warning: Variants 'rs2270614_dup' and 'rs2270614' have the same position.
+Warning: Variants 'rs147845820' and '1kg_1_67650702' have the same position.
+Warning: Variants 'rs11209072_dup' and 'rs11209072' have the same position.
+Warning: Variants 'rs142663428' and '1kg_1_92396032' have the same position.
+Warning: Variants 'rs11808092_dup' and 'rs11808092' have the same position.
+Warning: Variants 'rs144688093' and '1kg_1_92958062' have the same position.
+Warning: Variants 'rs10782946_dup' and 'rs10782946' have the same position.
+Warning: Variants 'rs141394702' and '1kg_1_101023655' have the same position.
+Warning: Variants 'rs12746227_dup' and 'rs12746227' have the same position.
+Warning: Variants 'rs4907924_dup' and 'rs4907924' have the same position.
+Warning: Variants 'rs7541397_dup' and 'rs7541397' have the same position.
+Warning: Variants 'rs10218565_dup' and 'rs10218565' have the same position.
+Warning: Variants 'rs145451321' and '1kg_1_101136377' have the same position.
+Warning: Variants 'rs140596737' and '1kg_1_101165822' have the same position.
+Warning: Variants 'rs11588410_dup' and 'rs11588410' have the same position.
+Warning: Variants 'rs12402499_dup' and 'rs12402499' have the same position.
+Warning: Variants 'rs140354345' and '1kg_1_101325720' have the same position.
+Warning: Variants 'rs6680048_dup' and 'rs6680048' have the same position.
+Warning: Variants 'rs145303894' and '1kg_1_101415329' have the same position.
+Warning: Variants 'rs142519412' and 'imm_1_113924917' have the same position.
+Warning: Variants 'rs137952431' and 'imm_1_116926089' have the same position.
+Warning: Variants 'rs141743641' and 'imm_1_116934179' have the same position.
+Warning: Variants 'rs145070297' and 'imm_1_116937401' have the same position.
+Warning: Variants 'seq-t1d-1-117241645-G-C' and 'rs141259683' have the same
+position.
+Warning: Variants 'rs148290064' and 'imm_1_120731611' have the same position.
+Warning: Variants 'rs150298716' and 'imm_1_150458093' have the same position.
+Warning: Variants 'rs8192284' and 'rs2228145' have the same position.
+Warning: Variants 'rs139508001' and 'imm_1_153336914' have the same position.
+Warning: Variants 'rs147048677' and 'imm_1_153428418' have the same position.
+Warning: Variants 'rs144551771' and 'imm_1_153491959' have the same position.
+Warning: Variants 'rs146764854' and 'imm_1_153672192' have the same position.
+Warning: Variants 'rs143908201' and 'imm_1_153851251' have the same position.
+Warning: Variants 'rs150685211' and 'imm_1_153998799' have the same position.
+Warning: Variants 'rs146969287' and 'ccc-1-159083841-A-G' have the same
+position.
+Warning: Variants 'rs140328622' and 'ccc-1-159112734-A-G' have the same
+position.
+Warning: Variants 'rs145415243' and 'ccc-1-159124569-G-A' have the same
+position.
+Warning: Variants 'rs144207549' and 'ccc-1-159144904-A-G' have the same
+position.
+Warning: Variants 'rs1801274_dup' and 'rs1801274' have the same position.
+Warning: Variants 'rs4657048' and '1kg_1_159752955' have the same position.
+Warning: Variants 'rs11811241_dup' and 'rs11811241' have the same position.
+Warning: Variants 'rs2499429_dup' and 'rs2499429' have the same position.
+Warning: Variants 'rs425701_dup' and 'rs425701' have the same position.
+Warning: Variants 'rs138533290' and 'FCGR3A-008041' have the same position.
+Warning: Variants 'rs12071216_dup' and 'rs12071216' have the same position.
+Warning: Variants 'rs447536' and '1kg_1_159785040' have the same position.
+Warning: Variants 'rs10127859' and '1kg_1_159785154' have the same position.
+Warning: Variants 'rs10917571_dup' and 'rs10917571' have the same position.
+Warning: Variants 'rs369661' and '1kg_1_159788023' have the same position.
+Warning: Variants 'rs2010319' and '1kg_1_159788373' have the same position.
+Warning: Variants 'rs389484' and '1kg_1_159788419' have the same position.
+Warning: Variants 'rs1771580' and '1kg_1_159800147' have the same position.
+Warning: Variants 'rs7538809' and '1kg_1_159808742' have the same position.
+Warning: Variants 'rs10917620' and '1kg_1_159813472' have the same position.
+Warning: Variants 'rs3754055' and '1kg_1_159825771' have the same position.
+Warning: Variants 'rs139529340' and '1kg_1_159830178' have the same position.
+Warning: Variants 'rs4657045' and '1kg_1_159833217' have the same position.
+Warning: Variants 'rs378618' and '1kg_1_159860478' have the same position.
+Warning: Variants 'rs447536_dup' and '1kg_1_159866397' have the same position.
+Warning: Variants 'rs12127809' and '1kg_1_159866861' have the same position.
+Warning: Variants 'rs513242_dup' and 'rs513242' have the same position.
+Warning: Variants 'rs3883934_dup' and 'rs3883934' have the same position.
+Warning: Variants 'rs377982_dup' and 'rs377982' have the same position.
+Warning: Variants 'rs427450' and '1kg_1_159869390' have the same position.
+Warning: Variants 'rs58851305' and '1kg_1_159869735' have the same position.
+Warning: Variants 'rs145510048' and '1kg_1_159872078' have the same position.
+Warning: Variants 'rs4554699' and '1kg_1_159874992' have the same position.
+Warning: Variants 'rs4554700' and '1kg_1_159874993' have the same position.
+Warning: Variants 'rs2333845_dup' and 'rs2333845' have the same position.
+Warning: Variants 'rs6019_dup' and 'rs6019' have the same position.
+Warning: Variants 'rs148702373' and 'imm_1_170984283' have the same position.
+Warning: Variants 'rs140468010' and 'imm_1_171384152' have the same position.
+Warning: Variants 'rs149651391' and '1kg_1_171616225' have the same position.
+Warning: Variants 'rs145987915' and '1kg_1_171634478' have the same position.
+Warning: Variants 'rs143997356' and '1kg_1_171685037' have the same position.
+Warning: Variants 'seq-rs10562663' and 'rs10562663' have the same position.
+Warning: Variants 'rs142546287' and 'imm_1_194576146' have the same position.
+Warning: Variants 'rs150341343' and 'imm_1_195622159' have the same position.
+Warning: Variants 'rs151183648' and 'imm_1_195929424' have the same position.
+Warning: Variants 'rs187143903' and 'imm_1_195941501' have the same position.
+Warning: Variants 'rs17612648_dup' and 'rs17612648' have the same position.
+Warning: Variants 'seq-rs17612648' and 'rs17612648_dup' have the same position.
+Warning: Variants 'rs41314039_dup' and 'rs41314039' have the same position.
+Warning: Variants 'seq-t1d-1-196955658-C-T' and 'rs141732757' have the same
+position.
+Warning: Variants 'rs7540378_dup' and 'rs7540378' have the same position.
+Warning: Variants 'rs140589352' and 'chr1_199244650' have the same position.
+Warning: Variants 'rs1855368_dup' and 'rs1855368' have the same position.
+Warning: Variants 'rs12022794_dup' and 'rs12022794' have the same position.
+Warning: Variants 'rs12713844_dup' and 'rs12713844' have the same position.
+Warning: Variants 'rs146709060' and '1kg_2_25436821' have the same position.
+Warning: Variants 'rs149482937' and 'imm_2_26390828' have the same position.
+Warning: Variants 'rs13385731_dup' and 'rs13385731' have the same position.
+Warning: Variants 'rs138162260' and '1kg_2_43547552' have the same position.
+Warning: Variants 'rs187767357' and 'imm_2_60821647' have the same position.
+Warning: Variants 'rs148365270' and 'imm_2_61304688' have the same position.
+Warning: Variants 'rs146835915' and 'imm_2_61453869' have the same position.
+Warning: Variants 'rs148794452' and 'ccc-2-62382914-C-T' have the same
+position.
+Warning: Variants 'rs147812354' and 'imm_2_65347107' have the same position.
+Warning: Variants 'rs150265738' and 'imm_2_65408337' have the same position.
+Warning: Variants 'rs149240121' and 'imm_2_68424263' have the same position.
+Warning: Variants 'rs148244912' and 'ccc-2-100028564-G-A' have the same
+position.
+Warning: Variants 'rs142566311' and 'ccc-2-100206280-C-T' have the same
+position.
+Warning: Variants 'rs144781530' and 'imm_2_100212680' have the same position.
+Warning: Variants 'rs145920499' and 'ccc-2-100227888-G-A' have the same
+position.
+Warning: Variants 'rs150440109' and 'ccc-2-100231995-G-A' have the same
+position.
+Warning: Variants 'rs146810781' and 'ccc-2-100238342-C-T' have the same
+position.
+Warning: Variants 'rs145818883' and 'ccc-2-101898464-C-T' have the same
+position.
+Warning: Variants 'rs192791030' and 'imm_2_101915089' have the same position.
+Warning: Variants 'rs148586670' and 'ccc-2-101981400-A-G' have the same
+position.
+Warning: Variants 'rs187827315' and 'ccc-2-101996675-G-A' have the same
+position.
+Warning: Variants 'rs187993898' and 'ccc-2-102004506-C-G' have the same
+position.
+Warning: Variants 'rs184893932' and 'imm_2_102056701' have the same position.
+Warning: Variants 'rs137907224' and 'ccc-2-102061603-A-G' have the same
+position.
+Warning: Variants 'rs140295113' and '2-162705829-TC-DELETION' have the same
+position.
+Warning: Variants 'rs150183165' and '2-162719545-A-DELETION' have the same
+position.
+Warning: Variants 'seq-NOVEL-9918' and 'rs147157342' have the same position.
+Warning: Variants 'seq-NOVEL-10097' and 'rs192762699' have the same position.
+Warning: Variants 'rs148024969' and 'imm_2_162783354' have the same position.
+Warning: Variants 'seq-NOVEL-10195' and 'rs141390616' have the same position.
+Warning: Variants 'seq-NOVEL-10297' and 'rs145769275' have the same position.
+Warning: Variants 'seq-NOVEL-10621' and 'rs190713240' have the same position.
+Warning: Variants 'seq-NOVEL-10679' and 'rs146086581' have the same position.
+Warning: Variants 'seq-NOVEL-10726' and 'rs142735009' have the same position.
+Warning: Variants 'seq-NOVEL-10935' and 'rs142624560' have the same position.
+Warning: Variants 'rs141231363' and 'imm_2_185161605' have the same position.
+Warning: Variants 'rs147725178' and 'imm_2_185237589' have the same position.
+Warning: Variants 'rs191526210' and 'imm_2_185265863' have the same position.
+Warning: Variants 'rs150700380' and 'imm_2_185463680' have the same position.
+Warning: Variants 'rs181501315' and 'imm_2_185814703' have the same position.
+Warning: Variants 'rs144923024' and 'imm_2_204187021' have the same position.
+Warning: Variants 'rs142502986' and '1kg_2_207081299' have the same position.
+Warning: Variants 'rs148979104' and '1kg_2_207153476' have the same position.
+Warning: Variants 'seq-rs7573065' and 'rs7573065' have the same position.
+Warning: Variants 'seq-rs2276631' and 'rs2276631' have the same position.
+Warning: Variants 'seq-rs3731865' and 'rs3731865' have the same position.
+Warning: Variants 'rs11556887_dup' and 'rs11556887' have the same position.
+Warning: Variants 'rs4972946_dup' and 'rs4972946' have the same position.
+Warning: Variants 'rs140725980' and 'imm_2_233871819' have the same position.
+Warning: Variants 'rs183108121' and 'imm_2_233975338' have the same position.
+Warning: Variants 'rs148472231' and '1kg_2_241269518' have the same position.
+Warning: Variants 'rs77454239' and '1kg_2_241277461' have the same position.
+Warning: Variants 'rs139740439' and '1kg_3_18644629' have the same position.
+Warning: Variants 'rs190941836' and '1kg_3_27717143' have the same position.
+Warning: Variants 'rs145776566' and '1kg_3_28063303' have the same position.
+Warning: Variants 'rs141592068' and 'imm_3_45921767' have the same position.
+Warning: Variants 'rs144255175' and 'imm_3_46409094' have the same position.
+Warning: Variants 'rs144850809' and 'imm_3_46414850' have the same position.
+Warning: Variants 'rs143846141' and 'imm_3_46461233' have the same position.
+Warning: Variants 'rs149130226' and 'imm_3_48443802' have the same position.
+Warning: Variants 'rs140711597' and 'imm_3_48444445' have the same position.
+Warning: Variants 'rs149306159' and 'gw_030001' have the same position.
+Warning: Variants 'rs145885061' and 'imm_3_48768508' have the same position.
+Warning: Variants 'rs137997194' and 'imm_3_48799941' have the same position.
+Warning: Variants 'rs140502640' and 'imm_3_48901165' have the same position.
+Warning: Variants 'rs147118406' and 'imm_3_49191299' have the same position.
+Warning: Variants 'rs147025639' and 'imm_3_49268823' have the same position.
+Warning: Variants 'rs149214030' and 'imm_3_49761201' have the same position.
+Warning: Variants 'rs140750015' and 'imm_3_50189307' have the same position.
+Warning: Variants 'rs142550625' and 'imm_3_50251361' have the same position.
+Warning: Variants 'rs148179194' and 'imm_3_50773656' have the same position.
+Warning: Variants 'rs141606272' and 'imm_3_50908018' have the same position.
+Warning: Variants 'rs144838025' and 'imm_3_50907201' have the same position.
+Warning: Variants 'seq-rs11313073' and 'rs11313073' have the same position.
+Warning: Variants 'rs140871996' and 'ccc-3-187027349-C-G' have the same
+position.
+Warning: Variants 'rs150162083' and 'imm_4_56910560' have the same position.
+Warning: Variants 'rs8242' and 'imm_4_123216149' have the same position.
+Warning: Variants 'rs150350428' and '4-123263242-A-INSERTION' have the same
+position.
+Warning: Variants 'rs139735807' and '4-123323559-C-INSERTION' have the same
+position.
+Warning: Variants 'rs147683986' and '4-123364904-C-INSERTION' have the same
+position.
+Warning: Variants 'rs72526541' and '4-123411258-G-INSERTION' have the same
+position.
+Warning: Variants 'rs138627754' and '4-123415462-T-DELETION' have the same
+position.
+Warning: Variants 'seq-rs34304695' and 'rs34304695' have the same position.
+Warning: Variants 'rs142392459' and '4-123496677-T-INSERTION' have the same
+position.
+Warning: Variants 'seq-NOVEL-9121' and 'rs138960714' have the same position.
+Warning: Variants 'seq-NOVEL-9751' and 'rs139009610' have the same position.
+Warning: Variants 'vh_4_186781147' and 'rs150703988' have the same position.
+Warning: Variants 'rs143493014' and '1kg_5_587252' have the same position.
+Warning: Variants 'rs141630461' and '1kg_5_737050' have the same position.
+Warning: Variants 'rs139171948' and 'imm_5_35862394' have the same position.
+Warning: Variants 'rs147413067' and 'imm_5_36039988' have the same position.
+Warning: Variants 'rs147399888' and 'ccc-5-40343584-G-T' have the same
+position.
+Warning: Variants 'rs138440314' and 'ccc-5-40495812-A-G' have the same
+position.
+Warning: Variants 'rs141545604' and 'ccc-5-40499375-G-A' have the same
+position.
+Warning: Variants 'rs144889335' and 'ccc-5-40526704-A-G' have the same
+position.
+Warning: Variants 'rs140358294' and 'ccc-5-40563083-C-A' have the same
+position.
+Warning: Variants 'rs142221909' and 'ccc-5-40613669-G-A' have the same
+position.
+Warning: Variants 'rs141379871' and 'ccc-5-40623000-C-G' have the same
+position.
+Warning: Variants 'rs180983282' and 'ccc-5-40634078-A-C' have the same
+position.
+Warning: Variants 'rs139677755' and 'imm_5_55459146' have the same position.
+Warning: Variants 'vh_5_64106374' and 'rs140062546' have the same position.
+Warning: Variants 'rs140105653' and '1kg_5_72565679' have the same position.
+Warning: Variants 'rs147632425' and '1kg_5_72582076' have the same position.
+Warning: Variants 'rs141244362' and 'imm_5_96032252' have the same position.
+Warning: Variants 'rs144063264' and 'ccc-5-96114433-C-A' have the same
+position.
+Warning: Variants 'rs141517564' and 'imm_5_96331588' have the same position.
+Warning: Variants 'rs191875584' and 'imm_5_131996694' have the same position.
+Warning: Variants 'rs143732396' and 'ccc-5-149739264-C-A' have the same
+position.
+Warning: Variants 'rs146937313' and 'ccc-5-149755642-A-G' have the same
+position.
+Warning: Variants 'rs144179587' and 'ccc-5-149759386-C-A' have the same
+position.
+Warning: Variants 'rs143564779' and '5-150239216-G-INSERTION' have the same
+position.
+Warning: Variants 'rs181906613' and 'ccc-5-150239295-G-C' have the same
+position.
+Warning: Variants 'rs150420316' and 'ccc-5-150261249-G-A' have the same
+position.
+Warning: Variants 'rs6889239_dup' and 'rs6889239' have the same position.
+Warning: Variants 'rs10036748_dup' and 'rs10036748' have the same position.
+Warning: Variants 'rs960709_dup' and 'rs960709' have the same position.
+Warning: Variants 'rs138278269' and 'ccc-5-158697138-G-T' have the same
+position.
+Warning: Variants 'rs146631251' and '1kg_5_173465327' have the same position.
+Warning: Variants 'rs2241584_dup' and 'rs2241584' have the same position.
+Warning: Variants 'rs146457634' and 'ccc-6-20651624-T-C' have the same
+position.
+Warning: Variants 'rs146580756' and '6-20679563-G-DELETION' have the same
+position.
+Warning: Variants 'rs143771764' and '6-20712211-T-INSERTION' have the same
+position.
+Warning: Variants 'rs146097993' and 'ccc-6-20770523-T-C' have the same
+position.
+Warning: Variants 'rs143680558' and '6-20771451-TT-INSERTION' have the same
+position.
+Warning: Variants 'rs140136314' and 'ccc-6-20783657-C-T' have the same
+position.
+Warning: Variants 'rs148574241' and 'ccc-6-20817271-G-T' have the same
+position.
+Warning: Variants 'rs144014196' and 'imm_6_20838530' have the same position.
+Warning: Variants 'rs55657338' and 'imm_6_20908380' have the same position.
+Warning: Variants 'rs9258122' and 'rs3131866' have the same position.
+Warning: Variants 'rs2523969_dup' and 'rs2523969' have the same position.
+Warning: Variants 'rs2735079_dup' and 'rs2735079' have the same position.
+Warning: Variants 'rs2523964_dup' and 'rs2523964' have the same position.
+Warning: Variants 'rs2523961_dup' and 'rs2523961' have the same position.
+Warning: Variants 'rs435766_dup' and 'rs435766' have the same position.
+Warning: Variants 'rs2256902_dup' and 'rs2256902' have the same position.
+Warning: Variants 'rs5009448_dup' and 'rs5009448' have the same position.
+Warning: Variants 'rs2256919_dup' and 'rs2256919' have the same position.
+Warning: Variants 'rs9295825_dup' and 'rs9295825' have the same position.
+Warning: Variants 'rs2523946_dup' and 'rs2523946' have the same position.
+Warning: Variants 'rs2844804_dup' and 'rs2844804' have the same position.
+Warning: Variants 'rs2523943_dup' and 'rs2523943' have the same position.
+Warning: Variants 'rs3823382_dup' and 'rs3823382' have the same position.
+Warning: Variants 'rs2571375_dup' and 'rs2571375' have the same position.
+Warning: Variants 'rs3823384_dup' and 'rs3823384' have the same position.
+Warning: Variants 'rs9260860_dup' and 'rs9260860' have the same position.
+Warning: Variants 'rs2246199_dup' and 'rs2246199' have the same position.
+Warning: Variants 'rs9260863_dup' and 'rs9260863' have the same position.
+Warning: Variants 'rs9260864_dup' and 'rs9260864' have the same position.
+Warning: Variants 'rs3132685_dup' and 'rs3132685' have the same position.
+Warning: Variants 'rs2894003_dup' and 'rs2894003' have the same position.
+Warning: Variants 'rs9260918_dup' and 'rs9260918' have the same position.
+Warning: Variants 'rs2844802_dup' and 'rs2844802' have the same position.
+Warning: Variants 'rs2246642_dup' and 'rs2246642' have the same position.
+Warning: Variants 'rs379221_dup' and 'rs379221' have the same position.
+Warning: Variants 'rs401618_dup' and 'rs401618' have the same position.
+Warning: Variants 'rs2735067_dup' and 'rs2735067' have the same position.
+Warning: Variants 'rs11757750_dup' and 'rs11757750' have the same position.
+Warning: Variants 'rs11755961_dup' and 'rs11755961' have the same position.
+Warning: Variants 'rs3901554_dup' and 'rs3901554' have the same position.
+Warning: Variants 'rs9260930_dup' and 'rs9260930' have the same position.
+Warning: Variants 'rs9260932_dup' and 'rs9260932' have the same position.
+Warning: Variants 'rs7749944_dup' and 'rs7749944' have the same position.
+Warning: Variants 'rs16896853_dup' and 'rs16896853' have the same position.
+Warning: Variants 'rs9468675_dup' and 'rs9468675' have the same position.
+Warning: Variants 'rs9260984_dup' and 'rs9260984' have the same position.
+Warning: Variants 'rs9260988_dup' and 'rs9260988' have the same position.
+Warning: Variants 'rs6457121_dup' and 'rs6457121' have the same position.
+Warning: Variants 'rs6910898_dup' and 'rs6910898' have the same position.
+Warning: Variants 'rs6911279_dup' and 'rs6911279' have the same position.
+Warning: Variants 'rs6911737_dup' and 'rs6911737' have the same position.
+Warning: Variants 'rs9261035_dup' and 'rs9261035' have the same position.
+Warning: Variants 'rs6923856_dup' and 'rs6923856' have the same position.
+Warning: Variants 'rs9261081_dup' and 'rs9261081' have the same position.
+Warning: Variants 'rs9261091_dup' and 'rs9261091' have the same position.
+Warning: Variants 'rs11760176_dup' and 'rs11760176' have the same position.
+Warning: Variants 'rs7758512_dup' and 'rs7758512' have the same position.
+Warning: Variants 'rs11965524_dup' and 'rs11965524' have the same position.
+Warning: Variants 'rs356967_dup' and 'rs356967' have the same position.
+Warning: Variants 'rs4313034_dup' and 'rs4313034' have the same position.
+Warning: Variants 'rs7750514_dup' and 'rs7750514' have the same position.
+Warning: Variants 'rs9261105_dup' and 'rs9261105' have the same position.
+Warning: Variants 'rs356968_dup' and 'rs356968' have the same position.
+Warning: Variants 'rs6940082_dup' and 'rs6940082' have the same position.
+Warning: Variants 'rs2240619_dup' and 'rs2240619' have the same position.
+Warning: Variants 'rs356969_dup' and 'rs356969' have the same position.
+Warning: Variants 'rs12661053_dup' and 'rs12661053' have the same position.
+Warning: Variants 'rs4713281_dup' and 'rs4713281' have the same position.
+Warning: Variants 'rs356971_dup' and 'rs356971' have the same position.
+Warning: Variants 'rs3734836_dup' and 'rs3734836' have the same position.
+Warning: Variants 'rs3121597' and '1kg_6_30088655' have the same position.
+Warning: Variants 'rs9261136_dup' and 'rs9261136' have the same position.
+Warning: Variants 'rs9261138_dup' and 'rs9261138' have the same position.
+Warning: Variants 'rs9357092_dup' and 'rs9357092' have the same position.
+Warning: Variants 'rs6926792_dup' and 'rs6926792' have the same position.
+Warning: Variants 'rs3115631_dup' and 'rs3115631' have the same position.
+Warning: Variants 'rs165256_dup' and 'rs165256' have the same position.
+Warning: Variants 'rs4711206_dup' and 'rs4711206' have the same position.
+Warning: Variants 'rs3891157_dup' and 'rs3891157' have the same position.
+Warning: Variants 'rs3129012_dup' and 'rs3129012' have the same position.
+Warning: Variants 'rs165255_dup' and 'rs165255' have the same position.
+Warning: Variants 'rs6919617_dup' and 'rs6919617' have the same position.
+Warning: Variants 'rs1150743_dup' and 'rs1150743' have the same position.
+Warning: Variants 'rs166325_dup' and 'rs166325' have the same position.
+Warning: Variants 'rs10947046_dup' and 'rs10947046' have the same position.
+Warning: Variants 'rs3121593_dup' and 'rs3121593' have the same position.
+Warning: Variants 'rs166327_dup' and 'rs166327' have the same position.
+Warning: Variants 'rs9261200_dup' and 'rs9261200' have the same position.
+Warning: Variants 'rs3869068_dup' and 'rs3869068' have the same position.
+Warning: Variants 'rs259931_dup' and 'rs259931' have the same position.
+Warning: Variants 'rs259932_dup' and 'rs259932' have the same position.
+Warning: Variants 'rs4711207_dup' and 'rs4711207' have the same position.
+Warning: Variants 'rs9405044_dup' and 'rs9405044' have the same position.
+Warning: Variants 'rs259935_dup' and 'rs259935' have the same position.
+Warning: Variants 'rs259937_dup' and 'rs259937' have the same position.
+Warning: Variants 'rs6915205_dup' and 'rs6915205' have the same position.
+Warning: Variants 'rs3910312_dup' and 'rs3910312' have the same position.
+Warning: Variants 'rs9261215_dup' and 'rs9261215' have the same position.
+Warning: Variants 'rs9380150_dup' and 'rs9380150' have the same position.
+Warning: Variants 'rs259939_dup' and 'rs259939' have the same position.
+Warning: Variants 'rs11965452_dup' and 'rs11965452' have the same position.
+Warning: Variants 'rs259942_dup' and 'rs259942' have the same position.
+Warning: Variants 'rs259943_dup' and 'rs259943' have the same position.
+Warning: Variants 'rs3134879_dup' and 'rs3134879' have the same position.
+Warning: Variants 'rs6457138_dup' and 'rs6457138' have the same position.
+Warning: Variants 'rs174220_dup' and 'rs174220' have the same position.
+Warning: Variants 'rs7761314_dup' and 'rs7761314' have the same position.
+Warning: Variants 'rs9261257_dup' and 'rs9261257' have the same position.
+Warning: Variants 'rs3869070_dup' and 'rs3869070' have the same position.
+Warning: Variants 'rs9261261_dup' and 'rs9261261' have the same position.
+Warning: Variants 'rs9366752_dup' and 'rs9366752' have the same position.
+Warning: Variants 'rs6911724_dup' and 'rs6911724' have the same position.
+Warning: Variants 'rs259919_dup' and 'rs259919' have the same position.
+Warning: Variants 'rs16896944_dup' and 'rs16896944' have the same position.
+Warning: Variants 'rs10484549_dup' and 'rs10484549' have the same position.
+Warning: Variants 'rs3132129_dup' and 'rs3132129' have the same position.
+Warning: Variants 'rs3757328_dup' and 'rs3757328' have the same position.
+Warning: Variants 'rs3757329_dup' and 'rs3757329' have the same position.
+Warning: Variants 'rs3757333_dup' and 'rs3757333' have the same position.
+Warning: Variants 'rs7770557_dup' and 'rs7770557' have the same position.
+Warning: Variants 'rs1150740_dup' and 'rs1150740' have the same position.
+Warning: Variants 'rs8321_dup' and 'rs8321' have the same position.
+Warning: Variants 'rs3188482_dup' and 'rs3188482' have the same position.
+Warning: Variants 'rs3807030_dup' and 'rs3807030' have the same position.
+Warning: Variants 'rs3807031_dup' and 'rs3807031' have the same position.
+Warning: Variants 'rs9261285_dup' and 'rs9261285' have the same position.
+Warning: Variants 'rs2074482_dup' and 'rs2074482' have the same position.
+Warning: Variants 'rs9261288_dup' and 'rs9261288' have the same position.
+Warning: Variants 'rs1245371_dup' and 'rs1245371' have the same position.
+Warning: Variants 'rs9261290_dup' and 'rs9261290' have the same position.
+Warning: Variants 'rs9261291_dup' and 'rs9261291' have the same position.
+Warning: Variants 'rs2301753_dup' and 'rs2301753' have the same position.
+Warning: Variants 'rs2301751_dup' and 'rs2301751' have the same position.
+Warning: Variants 'rs9393989_dup' and 'rs9393989' have the same position.
+Warning: Variants 'rs2074479_dup' and 'rs2074479' have the same position.
+Warning: Variants 'rs9261301_dup' and 'rs9261301' have the same position.
+Warning: Variants 'rs2285805_dup' and 'rs2285805' have the same position.
+Warning: Variants 'rs3807033_dup' and 'rs3807033' have the same position.
+Warning: Variants 'rs3807035_dup' and 'rs3807035' have the same position.
+Warning: Variants 'rs3807036_dup' and 'rs3807036' have the same position.
+Warning: Variants 'rs1150735_dup' and 'rs1150735' have the same position.
+Warning: Variants 'rs2394734_dup' and 'rs2394734' have the same position.
+Warning: Variants 'rs4711209_dup' and 'rs4711209' have the same position.
+Warning: Variants 'rs7382061_dup' and 'rs7382061' have the same position.
+Warning: Variants 'rs9261317_dup' and 'rs9261317' have the same position.
+Warning: Variants 'rs6909253_dup' and 'rs6909253' have the same position.
+Warning: Variants 'rs9261360_dup' and 'rs9261360' have the same position.
+Warning: Variants 'rs1264709_dup' and 'rs1264709' have the same position.
+Warning: Variants 'rs9261364_dup' and 'rs9261364' have the same position.
+Warning: Variants 'rs1264708_dup' and 'rs1264708' have the same position.
+Warning: Variants 'rs11965797_dup' and 'rs11965797' have the same position.
+Warning: Variants 'rs9261372_dup' and 'rs9261372' have the same position.
+Warning: Variants 'rs77580993_dup' and 'rs77580993' have the same position.
+Warning: Variants 'rs9261376' and 'rs77580993_dup' have the same position.
+Warning: Variants 'rs7753935_dup' and 'rs7753935' have the same position.
+Warning: Variants 'rs9261387_dup' and 'rs9261387' have the same position.
+Warning: Variants 'rs6923832_dup' and 'rs6923832' have the same position.
+Warning: Variants 'rs6457144_dup' and 'rs6457144' have the same position.
+Warning: Variants 'rs7765810_dup' and 'rs7765810' have the same position.
+Warning: Variants 'rs9261394_dup' and 'rs9261394' have the same position.
+Warning: Variants 'rs1156534_dup' and 'rs1156534' have the same position.
+Warning: Variants 'rs1264704_dup' and 'rs1264704' have the same position.
+Warning: Variants 'rs1264703_dup' and 'rs1264703' have the same position.
+Warning: Variants 'rs1264702_dup' and 'rs1264702' have the same position.
+Warning: Variants 'rs916570_dup' and 'rs916570' have the same position.
+Warning: Variants 'rs1264701_dup' and 'rs1264701' have the same position.
+Warning: Variants 'rs1264697_dup' and 'rs1264697' have the same position.
+Warning: Variants 'rs7763159_dup' and 'rs7763159' have the same position.
+Warning: Variants 'rs1264695_dup' and 'rs1264695' have the same position.
+Warning: Variants 'rs17839989_dup' and 'rs17839989' have the same position.
+Warning: Variants 'rs9261403_dup' and 'rs9261403' have the same position.
+Warning: Variants 'rs2240071_dup' and 'rs2240071' have the same position.
+Warning: Variants 'rs1110446_dup' and 'rs1110446' have the same position.
+Warning: Variants 'rs2240070_dup' and 'rs2240070' have the same position.
+Warning: Variants 'rs1116222_dup' and 'rs1116222' have the same position.
+Warning: Variants 'rs1116221_dup' and 'rs1116221' have the same position.
+Warning: Variants 'rs11964542_dup' and 'rs11964542' have the same position.
+Warning: Variants 'rs2248289_dup' and 'rs2248289' have the same position.
+Warning: Variants 'rs2844795_dup' and 'rs2844795' have the same position.
+Warning: Variants 'rs2517600_dup' and 'rs2517600' have the same position.
+Warning: Variants 'rs7767857_dup' and 'rs7767857' have the same position.
+Warning: Variants 'rs2023473_dup' and 'rs2023473' have the same position.
+Warning: Variants 'rs3132121_dup' and 'rs3132121' have the same position.
+Warning: Variants 'rs3132123_dup' and 'rs3132123' have the same position.
+Warning: Variants 'rs2074483_dup' and 'rs2074483' have the same position.
+Warning: Variants 'rs2523990_dup' and 'rs2523990' have the same position.
+Warning: Variants 'rs4959041_dup' and 'rs4959041' have the same position.
+Warning: Variants 'rs2523989_dup' and 'rs2523989' have the same position.
+Warning: Variants 'rs2239529_dup' and 'rs2239529' have the same position.
+Warning: Variants 'rs2249099_dup' and 'rs2249099' have the same position.
+Warning: Variants 'rs2523987_dup' and 'rs2523987' have the same position.
+Warning: Variants 'rs3734837_dup' and 'rs3734837' have the same position.
+Warning: Variants 'rs2844793_dup' and 'rs2844793' have the same position.
+Warning: Variants 'rs9261424_dup' and 'rs9261424' have the same position.
+Warning: Variants 'rs9261425_dup' and 'rs9261425' have the same position.
+Warning: Variants 'rs2523984_dup' and 'rs2523984' have the same position.
+Warning: Variants 'rs2523983_dup' and 'rs2523983' have the same position.
+Warning: Variants 'rs2523979_dup' and 'rs2523979' have the same position.
+Warning: Variants 'rs1015466_dup' and 'rs1015466' have the same position.
+Warning: Variants 'rs1015465_dup' and 'rs1015465' have the same position.
+Warning: Variants 'rs9261431_dup' and 'rs9261431' have the same position.
+Warning: Variants 'rs9261438_dup' and 'rs9261438' have the same position.
+Warning: Variants 'rs9261440_dup' and 'rs9261440' have the same position.
+Warning: Variants 'rs9261441_dup' and 'rs9261441' have the same position.
+Warning: Variants 'rs1419675_dup' and 'rs1419675' have the same position.
+Warning: Variants 'rs1419674_dup' and 'rs1419674' have the same position.
+Warning: Variants 'rs2517592_dup' and 'rs2517592' have the same position.
+Warning: Variants 'rs2844790_dup' and 'rs2844790' have the same position.
+Warning: Variants 'rs9261443_dup' and 'rs9261443' have the same position.
+Warning: Variants 'rs9261444_dup' and 'rs9261444' have the same position.
+Warning: Variants 'rs10484550_dup' and 'rs10484550' have the same position.
+Warning: Variants 'rs9261447_dup' and 'rs9261447' have the same position.
+Warning: Variants 'rs9261448_dup' and 'rs9261448' have the same position.
+Warning: Variants 'rs1419672_dup' and 'rs1419672' have the same position.
+Warning: Variants 'rs1419671_dup' and 'rs1419671' have the same position.
+Warning: Variants 'rs739784_dup' and 'rs739784' have the same position.
+Warning: Variants 'rs757264_dup' and 'rs757264' have the same position.
+Warning: Variants 'rs9461570_dup' and 'rs9461570' have the same position.
+Warning: Variants 'rs9261457_dup' and 'rs9261457' have the same position.
+Warning: Variants 'rs1362104_dup' and 'rs1362104' have the same position.
+Warning: Variants 'rs2523995_dup' and 'rs2523995' have the same position.
+Warning: Variants 'rs4713293_dup' and 'rs4713293' have the same position.
+Warning: Variants 'rs1541267_dup' and 'rs1541267' have the same position.
+Warning: Variants 'rs9261468_dup' and 'rs9261468' have the same position.
+Warning: Variants 'rs2857458_dup' and 'rs2857458' have the same position.
+Warning: Variants 'rs9261470_dup' and 'rs9261470' have the same position.
+Warning: Variants 'rs9261473_dup' and 'rs9261473' have the same position.
+Warning: Variants 'rs2107202_dup' and 'rs2107202' have the same position.
+Warning: Variants 'rs2857438_dup' and 'rs2857438' have the same position.
+Warning: Variants 'rs2857440_dup' and 'rs2857440' have the same position.
+Warning: Variants 'rs9261484_dup' and 'rs9261484' have the same position.
+Warning: Variants 'rs9261485_dup' and 'rs9261485' have the same position.
+Warning: Variants 'rs9261487_dup' and 'rs9261487' have the same position.
+Warning: Variants 'rs9261488_dup' and 'rs9261488' have the same position.
+Warning: Variants 'rs9261489_dup' and 'rs9261489' have the same position.
+Warning: Variants 'rs28780087_dup' and 'rs28780087' have the same position.
+Warning: Variants 'rs9261492_dup' and 'rs9261492' have the same position.
+Warning: Variants 'rs9261494_dup' and 'rs9261494' have the same position.
+Warning: Variants 'rs9261495_dup' and 'rs9261495' have the same position.
+Warning: Variants 'rs9261497_dup' and 'rs9261497' have the same position.
+Warning: Variants 'rs9261499_dup' and 'rs9261499' have the same position.
+Warning: Variants 'rs9261504_dup' and 'rs9261504' have the same position.
+Warning: Variants 'rs9261505_dup' and 'rs9261505' have the same position.
+Warning: Variants 'rs9261507_dup' and 'rs9261507' have the same position.
+Warning: Variants 'rs9261508_dup' and 'rs9261508' have the same position.
+Warning: Variants 'rs1541324_dup' and 'rs1541324' have the same position.
+Warning: Variants 'rs3815081_dup' and 'rs3815081' have the same position.
+Warning: Variants 'rs3815080_dup' and 'rs3815080' have the same position.
+Warning: Variants 'rs4959044_dup' and 'rs4959044' have the same position.
+Warning: Variants 'rs757262_dup' and 'rs757262' have the same position.
+Warning: Variants 'rs757261_dup' and 'rs757261' have the same position.
+Warning: Variants 'rs757260_dup' and 'rs757260' have the same position.
+Warning: Variants 'rs757259_dup' and 'rs757259' have the same position.
+Warning: Variants 'rs28780089_dup' and 'rs28780089' have the same position.
+Warning: Variants 'rs3132676_dup' and 'rs3132676' have the same position.
+Warning: Variants 'rs9261519_dup' and 'rs9261519' have the same position.
+Warning: Variants 'rs9261525_dup' and 'rs9261525' have the same position.
+Warning: Variants 'rs1557611_dup' and 'rs1557611' have the same position.
+Warning: Variants 'rs1557608_dup' and 'rs1557608' have the same position.
+Warning: Variants 'rs4392759_dup' and 'rs4392759' have the same position.
+Warning: Variants 'rs9261526_dup' and 'rs9261526' have the same position.
+Warning: Variants 'rs9468692_dup' and 'rs9468692' have the same position.
+Warning: Variants 'rs9261531_dup' and 'rs9261531' have the same position.
+Warning: Variants 'rs2257914_dup' and 'rs2257914' have the same position.
+Warning: Variants 'rs9468693_dup' and 'rs9468693' have the same position.
+Warning: Variants 'rs2285795_dup' and 'rs2285795' have the same position.
+Warning: Variants 'rs2517655_dup' and 'rs2517655' have the same position.
+Warning: Variants 'rs2517653_dup' and 'rs2517653' have the same position.
+Warning: Variants 'rs11760001_dup' and 'rs11760001' have the same position.
+Warning: Variants 'rs2022065_dup' and 'rs2022065' have the same position.
+Warning: Variants 'rs12210298_dup' and 'rs12210298' have the same position.
+Warning: Variants 'rs3734840_dup' and 'rs3734840' have the same position.
+Warning: Variants 'rs2517646_dup' and 'rs2517646' have the same position.
+Warning: Variants 'rs2523735_dup' and 'rs2523735' have the same position.
+Warning: Variants 'rs3757334_dup' and 'rs3757334' have the same position.
+Warning: Variants 'rs9501316_dup' and 'rs9501316' have the same position.
+Warning: Variants 'rs1970_dup' and 'rs1970' have the same position.
+Warning: Variants 'rs9261535_dup' and 'rs9261535' have the same position.
+Warning: Variants 'rs1573296_dup' and 'rs1573296' have the same position.
+Warning: Variants 'rs12212092_dup' and 'rs12212092' have the same position.
+Warning: Variants 'rs2157678_dup' and 'rs2157678' have the same position.
+Warning: Variants 'rs2523734_dup' and 'rs2523734' have the same position.
+Warning: Variants 'rs2517625_dup' and 'rs2517625' have the same position.
+Warning: Variants 'rs9261536_dup' and 'rs9261536' have the same position.
+Warning: Variants 'rs2074477_dup' and 'rs2074477' have the same position.
+Warning: Variants 'rs2857449_dup' and 'rs2857449' have the same position.
+Warning: Variants 'rs1008403_dup' and 'rs1008403' have the same position.
+Warning: Variants 'rs9368624_dup' and 'rs9368624' have the same position.
+Warning: Variants 'rs929157_dup' and 'rs929157' have the same position.
+Warning: Variants 'rs2523729_dup' and 'rs2523729' have the same position.
+Warning: Variants 'rs2074475_dup' and 'rs2074475' have the same position.
+Warning: Variants 'rs1029239_dup' and 'rs1029239' have the same position.
+Warning: Variants 'rs1029237_dup' and 'rs1029237' have the same position.
+Warning: Variants 'rs929156_dup' and 'rs929156' have the same position.
+Warning: Variants 'rs1063280_dup' and 'rs1063280' have the same position.
+Warning: Variants 'rs6905949_dup' and 'rs6905949' have the same position.
+Warning: Variants 'rs13212414_dup' and 'rs13212414' have the same position.
+Warning: Variants 'rs9380156_dup' and 'rs9380156' have the same position.
+Warning: Variants 'rs757257_dup' and 'rs757257' have the same position.
+Warning: Variants 'rs957765_dup' and 'rs957765' have the same position.
+Warning: Variants 'rs9461575_dup' and 'rs9461575' have the same position.
+Warning: Variants 'rs2844782_dup' and 'rs2844782' have the same position.
+Warning: Variants 'rs2428504_dup' and 'rs2428504' have the same position.
+Warning: Variants 'rs2239530_dup' and 'rs2239530' have the same position.
+Warning: Variants 'rs1042338_dup' and 'rs1042338' have the same position.
+Warning: Variants 'rs2517623_dup' and 'rs2517623' have the same position.
+Warning: Variants 'rs2106072_dup' and 'rs2106072' have the same position.
+Warning: Variants 'rs16897204_dup' and 'rs16897204' have the same position.
+Warning: Variants 'rs2074473_dup' and 'rs2074473' have the same position.
+Warning: Variants 'rs9261547_dup' and 'rs9261547' have the same position.
+Warning: Variants 'rs6457164_dup' and 'rs6457164' have the same position.
+Warning: Variants 'rs4711210_dup' and 'rs4711210' have the same position.
+Warning: Variants 'rs2074472_dup' and 'rs2074472' have the same position.
+Warning: Variants 'rs765977_dup' and 'rs765977' have the same position.
+Warning: Variants 'rs2517618_dup' and 'rs2517618' have the same position.
+Warning: Variants 'rs718254_dup' and 'rs718254' have the same position.
+Warning: Variants 'rs2284164_dup' and 'rs2284164' have the same position.
+Warning: Variants 'rs2284165_dup' and 'rs2284165' have the same position.
+Warning: Variants 'rs4711211_dup' and 'rs4711211' have the same position.
+Warning: Variants 'rs2517614_dup' and 'rs2517614' have the same position.
+Warning: Variants 'rs2523722_dup' and 'rs2523722' have the same position.
+Warning: Variants 'rs2517613_dup' and 'rs2517613' have the same position.
+Warning: Variants 'rs2523720_dup' and 'rs2523720' have the same position.
+Warning: Variants 'rs2072106_dup' and 'rs2072106' have the same position.
+Warning: Variants 'rs11758243_dup' and 'rs11758243' have the same position.
+Warning: Variants 'rs2523719_dup' and 'rs2523719' have the same position.
+Warning: Variants 'rs2239531_dup' and 'rs2239531' have the same position.
+Warning: Variants 'rs2517611_dup' and 'rs2517611' have the same position.
+Warning: Variants 'rs2517610_dup' and 'rs2517610' have the same position.
+Warning: Variants 'rs2523716_dup' and 'rs2523716' have the same position.
+Warning: Variants 'rs1117489_dup' and 'rs1117489' have the same position.
+Warning: Variants 'rs2284169_dup' and 'rs2284169' have the same position.
+Warning: Variants 'rs2284170_dup' and 'rs2284170' have the same position.
+Warning: Variants 'rs971570_dup' and 'rs971570' have the same position.
+Warning: Variants 'rs9261564_dup' and 'rs9261564' have the same position.
+Warning: Variants 'rs885912_dup' and 'rs885912' have the same position.
+Warning: Variants 'rs3132672_dup' and 'rs3132672' have the same position.
+Warning: Variants 'rs10947058_dup' and 'rs10947058' have the same position.
+Warning: Variants 'rs3132671_dup' and 'rs3132671' have the same position.
+Warning: Variants 'rs3130383_dup' and 'rs3130383' have the same position.
+Warning: Variants 'rs3130384_dup' and 'rs3130384' have the same position.
+Warning: Variants 'rs9378221_dup' and 'rs9378221' have the same position.
+Warning: Variants 'rs1345229_dup' and 'rs1345229' have the same position.
+Warning: Variants 'rs2523723_dup' and 'rs2523723' have the same position.
+Warning: Variants 'rs3132668_dup' and 'rs3132668' have the same position.
+Warning: Variants 'rs3094132_dup' and 'rs3094132' have the same position.
+Warning: Variants 'rs3130391_dup' and 'rs3130391' have the same position.
+Warning: Variants 'rs9261578_dup' and 'rs9261578' have the same position.
+Warning: Variants 'rs1264691_dup' and 'rs1264691' have the same position.
+Warning: Variants 'rs2040486_dup' and 'rs2040486' have the same position.
+Warning: Variants 'rs9501428_dup' and 'rs9501428' have the same position.
+Warning: Variants 'rs3094140_dup' and 'rs3094140' have the same position.
+Warning: Variants 'rs9261582_dup' and 'rs9261582' have the same position.
+Warning: Variants 'rs3094138_dup' and 'rs3094138' have the same position.
+Warning: Variants 'rs1573295_dup' and 'rs1573295' have the same position.
+Warning: Variants 'rs150805883' and '1kg_6_30308948' have the same position.
+Warning: Variants 'rs916568_dup' and 'rs916568' have the same position.
+Warning: Variants 'rs3132674_dup' and 'rs3132674' have the same position.
+Warning: Variants 'rs885916_dup' and 'rs885916' have the same position.
+Warning: Variants 'rs885915_dup' and 'rs885915' have the same position.
+Warning: Variants 'rs2844780_dup' and 'rs2844780' have the same position.
+Warning: Variants 'rs2844779_dup' and 'rs2844779' have the same position.
+Warning: Variants 'rs2844778_dup' and 'rs2844778' have the same position.
+Warning: Variants 'rs2844777_dup' and 'rs2844777' have the same position.
+Warning: Variants 'rs10456378_dup' and 'rs10456378' have the same position.
+Warning: Variants 'rs10947061_dup' and 'rs10947061' have the same position.
+Warning: Variants 'rs2844773_dup' and 'rs2844773' have the same position.
+Warning: Variants 'rs2253163_dup' and 'rs2253163' have the same position.
+Warning: Variants 'rs2285801_dup' and 'rs2285801' have the same position.
+Warning: Variants 'rs2508028_dup' and 'rs2508028' have the same position.
+Warning: Variants 'rs1362089_dup' and 'rs1362089' have the same position.
+Warning: Variants 'rs9261588_dup' and 'rs9261588' have the same position.
+Warning: Variants 'rs3094636_dup' and 'rs3094636' have the same position.
+Warning: Variants 'rs3132664_dup' and 'rs3132664' have the same position.
+Warning: Variants 'rs4449668_dup' and 'rs4449668' have the same position.
+Warning: Variants 'rs2523741_dup' and 'rs2523741' have the same position.
+Warning: Variants 'rs2022083_dup' and 'rs2022083' have the same position.
+Warning: Variants 'rs3132662_dup' and 'rs3132662' have the same position.
+Warning: Variants 'rs2844767_dup' and 'rs2844767' have the same position.
+Warning: Variants 'rs1579219_dup' and 'rs1579219' have the same position.
+Warning: Variants 'rs928824_dup' and 'rs928824' have the same position.
+Warning: Variants 'rs3094078_dup' and 'rs3094078' have the same position.
+Warning: Variants 'rs2516714_dup' and 'rs2516714' have the same position.
+Warning: Variants 'rs11752959_dup' and 'rs11752959' have the same position.
+Warning: Variants 'rs2516713_dup' and 'rs2516713' have the same position.
+Warning: Variants 'rs2021107_dup' and 'rs2021107' have the same position.
+Warning: Variants 'rs2523747_dup' and 'rs2523747' have the same position.
+Warning: Variants 'rs3130397_dup' and 'rs3130397' have the same position.
+Warning: Variants 'rs2516703_dup' and 'rs2516703' have the same position.
+Warning: Variants 'rs2523746_dup' and 'rs2523746' have the same position.
+Warning: Variants 'rs2844766_dup' and 'rs2844766' have the same position.
+Warning: Variants 'rs3094073_dup' and 'rs3094073' have the same position.
+Warning: Variants 'rs3094072_dup' and 'rs3094072' have the same position.
+Warning: Variants 'rs3130403_dup' and 'rs3130403' have the same position.
+Warning: Variants 'rs2516697_dup' and 'rs2516697' have the same position.
+Warning: Variants 'rs3129701_dup' and 'rs3129701' have the same position.
+Warning: Variants 'rs3094629_dup' and 'rs3094629' have the same position.
+Warning: Variants 'rs3132657_dup' and 'rs3132657' have the same position.
+Warning: Variants 'rs3129703_dup' and 'rs3129703' have the same position.
+Warning: Variants 'rs3129707_dup' and 'rs3129707' have the same position.
+Warning: Variants 'rs9378145_dup' and 'rs9378145' have the same position.
+Warning: Variants 'rs2844762_dup' and 'rs2844762' have the same position.
+Warning: Variants 'rs9368628_dup' and 'rs9368628' have the same position.
+Warning: Variants 'rs2844759_dup' and 'rs2844759' have the same position.
+Warning: Variants 'rs1158763_dup' and 'rs1158763' have the same position.
+Warning: Variants 'rs2097773_dup' and 'rs2097773' have the same position.
+Warning: Variants 'rs3132653_dup' and 'rs3132653' have the same position.
+Warning: Variants 'rs968909_dup' and 'rs968909' have the same position.
+Warning: Variants 'rs2844754_dup' and 'rs2844754' have the same position.
+Warning: Variants 'rs4713305_dup' and 'rs4713305' have the same position.
+Warning: Variants 'rs10484551_dup' and 'rs10484551' have the same position.
+Warning: Variants 'rs1264622_dup' and 'rs1264622' have the same position.
+Warning: Variants 'rs2285800_dup' and 'rs2285800' have the same position.
+Warning: Variants 'rs6915913_dup' and 'rs6915913' have the same position.
+Warning: Variants 'rs928823_dup' and 'rs928823' have the same position.
+Warning: Variants 'rs1264620_dup' and 'rs1264620' have the same position.
+Warning: Variants 'rs1045251_dup' and 'rs1045251' have the same position.
+Warning: Variants 'rs11752362_dup' and 'rs11752362' have the same position.
+Warning: Variants 'rs1264616_dup' and 'rs1264616' have the same position.
+Warning: Variants 'rs261950_dup' and 'rs261950' have the same position.
+Warning: Variants 'rs261949_dup' and 'rs261949' have the same position.
+Warning: Variants 'rs261948_dup' and 'rs261948' have the same position.
+Warning: Variants 'rs261946_dup' and 'rs261946' have the same position.
+Warning: Variants 'rs4713310_dup' and 'rs4713310' have the same position.
+Warning: Variants 'rs261945_dup' and 'rs261945' have the same position.
+Warning: Variants 'rs261943_dup' and 'rs261943' have the same position.
+Warning: Variants 'rs9380167_dup' and 'rs9380167' have the same position.
+Warning: Variants 'rs928822_dup' and 'rs928822' have the same position.
+Warning: Variants 'rs1264608_dup' and 'rs1264608' have the same position.
+Warning: Variants 'rs3130380_dup' and 'rs3130380' have the same position.
+Warning: Variants 'rs4713312_dup' and 'rs4713312' have the same position.
+Warning: Variants 'rs11757879_dup' and 'rs11757879' have the same position.
+Warning: Variants 'rs9295843_dup' and 'rs9295843' have the same position.
+Warning: Variants 'rs3094065_dup' and 'rs3094065' have the same position.
+Warning: Variants 'rs17472720_dup' and 'rs17472720' have the same position.
+Warning: Variants 'rs3094628_dup' and 'rs3094628' have the same position.
+Warning: Variants 'rs1264585_dup' and 'rs1264585' have the same position.
+Warning: Variants 'rs6924453_dup' and 'rs6924453' have the same position.
+Warning: Variants 'rs6900042_dup' and 'rs6900042' have the same position.
+Warning: Variants 'rs1264583_dup' and 'rs1264583' have the same position.
+Warning: Variants 'rs1264582_dup' and 'rs1264582' have the same position.
+Warning: Variants 'rs1110464_dup' and 'rs1110464' have the same position.
+Warning: Variants 'rs3094064_dup' and 'rs3094064' have the same position.
+Warning: Variants 'rs1264581_dup' and 'rs1264581' have the same position.
+Warning: Variants 'rs2057727_dup' and 'rs2057727' have the same position.
+Warning: Variants 'rs6922082_dup' and 'rs6922082' have the same position.
+Warning: Variants 'rs3094067_dup' and 'rs3094067' have the same position.
+Warning: Variants 'rs12663184_dup' and 'rs12663184' have the same position.
+Warning: Variants 'rs3778624_dup' and 'rs3778624' have the same position.
+Warning: Variants 'rs3129838_dup' and 'rs3129838' have the same position.
+Warning: Variants 'rs9380173_dup' and 'rs9380173' have the same position.
+Warning: Variants 'rs2074474_dup' and 'rs2074474' have the same position.
+Warning: Variants 'rs2240058_dup' and 'rs2240058' have the same position.
+Warning: Variants 'rs11967_dup' and 'rs11967' have the same position.
+Warning: Variants 'rs6986_dup' and 'rs6986' have the same position.
+Warning: Variants 'rs974962_dup' and 'rs974962' have the same position.
+Warning: Variants 'rs974961_dup' and 'rs974961' have the same position.
+Warning: Variants 'rs9394003_dup' and 'rs9394003' have the same position.
+Warning: Variants 'rs9380174_dup' and 'rs9380174' have the same position.
+Warning: Variants 'rs9461577_dup' and 'rs9461577' have the same position.
+Warning: Variants 'rs3130355_dup' and 'rs3130355' have the same position.
+Warning: Variants 'rs6905389_dup' and 'rs6905389' have the same position.
+Warning: Variants 'rs3130374_dup' and 'rs3130374' have the same position.
+Warning: Variants 'rs984802_dup' and 'rs984802' have the same position.
+Warning: Variants 'rs3130375_dup' and 'rs3130375' have the same position.
+Warning: Variants 'rs3130377_dup' and 'rs3130377' have the same position.
+Warning: Variants 'rs3094626_dup' and 'rs3094626' have the same position.
+Warning: Variants 'rs3130379_dup' and 'rs3130379' have the same position.
+Warning: Variants 'rs3130352_dup' and 'rs3130352' have the same position.
+Warning: Variants 'rs11754099_dup' and 'rs11754099' have the same position.
+Warning: Variants 'rs2251765_dup' and 'rs2251765' have the same position.
+Warning: Variants 'rs2158286_dup' and 'rs2158286' have the same position.
+Warning: Variants 'rs2158285_dup' and 'rs2158285' have the same position.
+Warning: Variants 'rs1012411_dup' and 'rs1012411' have the same position.
+Warning: Variants 'rs3094054_dup' and 'rs3094054' have the same position.
+Warning: Variants 'rs4711214_dup' and 'rs4711214' have the same position.
+Warning: Variants 'rs2022082_dup' and 'rs2022082' have the same position.
+Warning: Variants 'rs2040450_dup' and 'rs2040450' have the same position.
+Warning: Variants 'rs886390_dup' and 'rs886390' have the same position.
+Warning: Variants 'rs2057726_dup' and 'rs2057726' have the same position.
+Warning: Variants 'rs3129808_dup' and 'rs3129808' have the same position.
+Warning: Variants 'rs3129809_dup' and 'rs3129809' have the same position.
+Warning: Variants 'rs2022079_dup' and 'rs2022079' have the same position.
+Warning: Variants 'rs3129812_dup' and 'rs3129812' have the same position.
+Warning: Variants 'rs2844748_dup' and 'rs2844748' have the same position.
+Warning: Variants 'rs3129813_dup' and 'rs3129813' have the same position.
+Warning: Variants 'rs3130358_dup' and 'rs3130358' have the same position.
+Warning: Variants 'rs3130359_dup' and 'rs3130359' have the same position.
+Warning: Variants 'rs2523724_dup' and 'rs2523724' have the same position.
+Warning: Variants 'rs2844746_dup' and 'rs2844746' have the same position.
+Warning: Variants 'rs3129816_dup' and 'rs3129816' have the same position.
+Warning: Variants 'rs11759238_dup' and 'rs11759238' have the same position.
+Warning: Variants 'rs3132636_dup' and 'rs3132636' have the same position.
+Warning: Variants 'rs7772240_dup' and 'rs7772240' have the same position.
+Warning: Variants 'rs3132634_dup' and 'rs3132634' have the same position.
+Warning: Variants 'rs3129820_dup' and 'rs3129820' have the same position.
+Warning: Variants 'rs2844745_dup' and 'rs2844745' have the same position.
+Warning: Variants 'rs3132633_dup' and 'rs3132633' have the same position.
+Warning: Variants 'rs2524212_dup' and 'rs2524212' have the same position.
+Warning: Variants 'rs3132629_dup' and 'rs3132629' have the same position.
+Warning: Variants 'rs3132628_dup' and 'rs3132628' have the same position.
+Warning: Variants 'rs3132627_dup' and 'rs3132627' have the same position.
+Warning: Variants 'rs7738673_dup' and 'rs7738673' have the same position.
+Warning: Variants 'rs970270_dup' and 'rs970270' have the same position.
+Warning: Variants 'rs3132625_dup' and 'rs3132625' have the same position.
+Warning: Variants 'rs9404964_dup' and 'rs9404964' have the same position.
+Warning: Variants 'rs1245218_dup' and 'rs1245218' have the same position.
+Warning: Variants 'rs7744914_dup' and 'rs7744914' have the same position.
+Warning: Variants 'rs3132622_dup' and 'rs3132622' have the same position.
+Warning: Variants 'rs3132621_dup' and 'rs3132621' have the same position.
+Warning: Variants 'rs3130133_dup' and 'rs3130133' have the same position.
+Warning: Variants 'rs2524211_dup' and 'rs2524211' have the same position.
+Warning: Variants 'rs3130136_dup' and 'rs3130136' have the same position.
+Warning: Variants 'rs3130139_dup' and 'rs3130139' have the same position.
+Warning: Variants 'rs3130140_dup' and 'rs3130140' have the same position.
+Warning: Variants 'rs3130144_dup' and 'rs3130144' have the same position.
+Warning: Variants 'rs3094698_dup' and 'rs3094698' have the same position.
+Warning: Variants 'rs9391683_dup' and 'rs9391683' have the same position.
+Warning: Variants 'rs3094041_dup' and 'rs3094041' have the same position.
+Warning: Variants 'rs2516685_dup' and 'rs2516685' have the same position.
+Warning: Variants 'rs3094040_dup' and 'rs3094040' have the same position.
+Warning: Variants 'rs3130107_dup' and 'rs3130107' have the same position.
+Warning: Variants 'rs3130109_dup' and 'rs3130109' have the same position.
+Warning: Variants 'rs3094035_dup' and 'rs3094035' have the same position.
+Warning: Variants 'rs3130113_dup' and 'rs3130113' have the same position.
+Warning: Variants 'rs2516688_dup' and 'rs2516688' have the same position.
+Warning: Variants 'rs2516687_dup' and 'rs2516687' have the same position.
+Warning: Variants 'rs2072111_dup' and 'rs2072111' have the same position.
+Warning: Variants 'rs1264570_dup' and 'rs1264570' have the same position.
+Warning: Variants 'rs1264569_dup' and 'rs1264569' have the same position.
+Warning: Variants 'rs3130116_dup' and 'rs3130116' have the same position.
+Warning: Variants 'rs9261737_dup' and 'rs9261737' have the same position.
+Warning: Variants 'rs1362118_dup' and 'rs1362118' have the same position.
+Warning: Variants 'rs1034322_dup' and 'rs1034322' have the same position.
+Warning: Variants 'rs1419691_dup' and 'rs1419691' have the same position.
+Warning: Variants 'rs1419689_dup' and 'rs1419689' have the same position.
+Warning: Variants 'rs2023372_dup' and 'rs2023372' have the same position.
+Warning: Variants 'rs10947072_dup' and 'rs10947072' have the same position.
+Warning: Variants 'rs7741364_dup' and 'rs7741364' have the same position.
+Warning: Variants 'rs1362116_dup' and 'rs1362116' have the same position.
+Warning: Variants 'rs9261802_dup' and 'rs9261802' have the same position.
+Warning: Variants 'rs1264550_dup' and 'rs1264550' have the same position.
+Warning: Variants 'rs9261817_dup' and 'rs9261817' have the same position.
+Warning: Variants 'rs978009_dup' and 'rs978009' have the same position.
+Warning: Variants 'rs1150769_dup' and 'rs1150769' have the same position.
+Warning: Variants 'rs4713327_dup' and 'rs4713327' have the same position.
+Warning: Variants 'rs4713328_dup' and 'rs4713328' have the same position.
+Warning: Variants 'rs1150770_dup' and 'rs1150770' have the same position.
+Warning: Variants 'rs9261856_dup' and 'rs9261856' have the same position.
+Warning: Variants 'rs9261859_dup' and 'rs9261859' have the same position.
+Warning: Variants 'rs1150772_dup' and 'rs1150772' have the same position.
+Warning: Variants 'rs6916716_dup' and 'rs6916716' have the same position.
+Warning: Variants 'rs9261869_dup' and 'rs9261869' have the same position.
+Warning: Variants 'rs9261870_dup' and 'rs9261870' have the same position.
+Warning: Variants 'rs1573294_dup' and 'rs1573294' have the same position.
+Warning: Variants 'rs1264539_dup' and 'rs1264539' have the same position.
+Warning: Variants 'rs9261919_dup' and 'rs9261919' have the same position.
+Warning: Variants 'rs9261922_dup' and 'rs9261922' have the same position.
+Warning: Variants 'rs2023470_dup' and 'rs2023470' have the same position.
+Warning: Variants 'rs9295863_dup' and 'rs9295863' have the same position.
+Warning: Variants 'rs1269556_dup' and 'rs1269556' have the same position.
+Warning: Variants 'rs1264518_dup' and 'rs1264518' have the same position.
+Warning: Variants 'rs1264517_dup' and 'rs1264517' have the same position.
+Warning: Variants 'rs17476793_dup' and 'rs17476793' have the same position.
+Warning: Variants 'rs9295871_dup' and 'rs9295871' have the same position.
+Warning: Variants 'rs1268444_dup' and 'rs1268444' have the same position.
+Warning: Variants 'rs1264514_dup' and 'rs1264514' have the same position.
+Warning: Variants 'rs9468757_dup' and 'rs9468757' have the same position.
+Warning: Variants 'rs7747320_dup' and 'rs7747320' have the same position.
+Warning: Variants 'rs9380178_dup' and 'rs9380178' have the same position.
+Warning: Variants 'rs1264511_dup' and 'rs1264511' have the same position.
+Warning: Variants 'rs1264510_dup' and 'rs1264510' have the same position.
+Warning: Variants 'rs4711219_dup' and 'rs4711219' have the same position.
+Warning: Variants 'rs1362115_dup' and 'rs1362115' have the same position.
+Warning: Variants 'rs1419687_dup' and 'rs1419687' have the same position.
+Warning: Variants 'rs2105961_dup' and 'rs2105961' have the same position.
+Warning: Variants 'rs4959047_dup' and 'rs4959047' have the same position.
+Warning: Variants 'rs4959049_dup' and 'rs4959049' have the same position.
+Warning: Variants 'rs2844730_dup' and 'rs2844730' have the same position.
+Warning: Variants 'rs9461608_dup' and 'rs9461608' have the same position.
+Warning: Variants 'rs4947284_dup' and 'rs4947284' have the same position.
+Warning: Variants 'rs1076832_dup' and 'rs1076832' have the same position.
+Warning: Variants 'rs2844729_dup' and 'rs2844729' have the same position.
+Warning: Variants 'rs2516677_dup' and 'rs2516677' have the same position.
+Warning: Variants 'rs2524182_dup' and 'rs2524182' have the same position.
+Warning: Variants 'rs6900398_dup' and 'rs6900398' have the same position.
+Warning: Variants 'rs2077573_dup' and 'rs2077573' have the same position.
+Warning: Variants 'rs2516676_dup' and 'rs2516676' have the same position.
+Warning: Variants 'rs2524173_dup' and 'rs2524173' have the same position.
+Warning: Variants 'rs2524172_dup' and 'rs2524172' have the same position.
+Warning: Variants 'rs7761210_dup' and 'rs7761210' have the same position.
+Warning: Variants 'rs7764934_dup' and 'rs7764934' have the same position.
+Warning: Variants 'rs7747873_dup' and 'rs7747873' have the same position.
+Warning: Variants 'rs2516670_dup' and 'rs2516670' have the same position.
+Warning: Variants 'rs6930977_dup' and 'rs6930977' have the same position.
+Warning: Variants 'rs9295895_dup' and 'rs9295895' have the same position.
+Warning: Variants 'rs6909620_dup' and 'rs6909620' have the same position.
+Warning: Variants 'rs2021720_dup' and 'rs2021720' have the same position.
+Warning: Variants 'rs3094694_dup' and 'rs3094694' have the same position.
+Warning: Variants 'rs16897572_dup' and 'rs16897572' have the same position.
+Warning: Variants 'rs2157605_dup' and 'rs2157605' have the same position.
+Warning: Variants 'rs3757335_dup' and 'rs3757335' have the same position.
+Warning: Variants 'rs762324_dup' and 'rs762324' have the same position.
+Warning: Variants 'rs1264459_dup' and 'rs1264459' have the same position.
+Warning: Variants 'rs1264457_dup' and 'rs1264457' have the same position.
+Warning: Variants 'rs1264456_dup' and 'rs1264456' have the same position.
+Warning: Variants 'rs2508024_dup' and 'rs2508024' have the same position.
+Warning: Variants 'rs7754598_dup' and 'rs7754598' have the same position.
+Warning: Variants 'rs9394008_dup' and 'rs9394008' have the same position.
+Warning: Variants 'rs3131115_dup' and 'rs3131115' have the same position.
+Warning: Variants 'rs2844724_dup' and 'rs2844724' have the same position.
+Warning: Variants 'rs2844723_dup' and 'rs2844723' have the same position.
+Warning: Variants 'rs2429657_dup' and 'rs2429657' have the same position.
+Warning: Variants 'rs2516662_dup' and 'rs2516662' have the same position.
+Warning: Variants 'rs2023609_dup' and 'rs2023609' have the same position.
+Warning: Variants 'rs2023608_dup' and 'rs2023608' have the same position.
+Warning: Variants 'rs975195_dup' and 'rs975195' have the same position.
+Warning: Variants 'rs2534812_dup' and 'rs2534812' have the same position.
+Warning: Variants 'rs10484552_dup' and 'rs10484552' have the same position.
+Warning: Variants 'rs7767714_dup' and 'rs7767714' have the same position.
+Warning: Variants 'rs2534826_dup' and 'rs2534826' have the same position.
+Warning: Variants 'rs2534825_dup' and 'rs2534825' have the same position.
+Warning: Variants 'rs2524226_dup' and 'rs2524226' have the same position.
+Warning: Variants 'rs2534816_dup' and 'rs2534816' have the same position.
+Warning: Variants 'rs13437329_dup' and 'rs13437329' have the same position.
+Warning: Variants 'rs1468079_dup' and 'rs1468079' have the same position.
+Warning: Variants 'rs3130117_dup' and 'rs3130117' have the same position.
+Warning: Variants 'rs2524222_dup' and 'rs2524222' have the same position.
+Warning: Variants 'rs12192673_dup' and 'rs12192673' have the same position.
+Warning: Variants 'rs3815101_dup' and 'rs3815101' have the same position.
+Warning: Variants 'rs3130247_dup' and 'rs3130247' have the same position.
+Warning: Variants 'rs2844715_dup' and 'rs2844715' have the same position.
+Warning: Variants 'rs2844714_dup' and 'rs2844714' have the same position.
+Warning: Variants 'rs2844713_dup' and 'rs2844713' have the same position.
+Warning: Variants 'rs2074505_dup' and 'rs2074505' have the same position.
+Warning: Variants 'rs4279479_dup' and 'rs4279479' have the same position.
+Warning: Variants 'rs9468789_dup' and 'rs9468789' have the same position.
+Warning: Variants 'rs2516647_dup' and 'rs2516647' have the same position.
+Warning: Variants 'rs4713337_dup' and 'rs4713337' have the same position.
+Warning: Variants 'rs3888777_dup' and 'rs3888777' have the same position.
+Warning: Variants 'rs2074504_dup' and 'rs2074504' have the same position.
+Warning: Variants 'rs2074503_dup' and 'rs2074503' have the same position.
+Warning: Variants 'rs9262113_dup' and 'rs9262113' have the same position.
+Warning: Variants 'rs3130041_dup' and 'rs3130041' have the same position.
+Warning: Variants 'rs3130242_dup' and 'rs3130242' have the same position.
+Warning: Variants 'rs3132613_dup' and 'rs3132613' have the same position.
+Warning: Variants 'rs3130243_dup' and 'rs3130243' have the same position.
+Warning: Variants 'rs2269710_dup' and 'rs2269710' have the same position.
+Warning: Variants 'rs2269709_dup' and 'rs2269709' have the same position.
+Warning: Variants 'rs1264451_dup' and 'rs1264451' have the same position.
+Warning: Variants 'rs6927597_dup' and 'rs6927597' have the same position.
+Warning: Variants 'rs3132610_dup' and 'rs3132610' have the same position.
+Warning: Variants 'rs732229_dup' and 'rs732229' have the same position.
+Warning: Variants 'rs1264446_dup' and 'rs1264446' have the same position.
+Warning: Variants 'rs6902544_dup' and 'rs6902544' have the same position.
+Warning: Variants 'rs1264440_dup' and 'rs1264440' have the same position.
+Warning: Variants 'rs11968929_dup' and 'rs11968929' have the same position.
+Warning: Variants 'rs3130244_dup' and 'rs3130244' have the same position.
+Warning: Variants 'rs1264437_dup' and 'rs1264437' have the same position.
+Warning: Variants 'rs6918685_dup' and 'rs6918685' have the same position.
+Warning: Variants 'rs3095278_dup' and 'rs3095278' have the same position.
+Warning: Variants 'rs1264432_dup' and 'rs1264432' have the same position.
+Warning: Variants 'rs7749978_dup' and 'rs7749978' have the same position.
+Warning: Variants 'rs1264431_dup' and 'rs1264431' have the same position.
+Warning: Variants 'rs9380181_dup' and 'rs9380181' have the same position.
+Warning: Variants 'rs9262119_dup' and 'rs9262119' have the same position.
+Warning: Variants 'rs1264429_dup' and 'rs1264429' have the same position.
+Warning: Variants 'rs7774485_dup' and 'rs7774485' have the same position.
+Warning: Variants 'rs7759666_dup' and 'rs7759666' have the same position.
+Warning: Variants 'rs1264423_dup' and 'rs1264423' have the same position.
+Warning: Variants 'rs7742650_dup' and 'rs7742650' have the same position.
+Warning: Variants 'rs1264420_dup' and 'rs1264420' have the same position.
+Warning: Variants 'rs9348841_dup' and 'rs9348841' have the same position.
+Warning: Variants 'rs2252745_dup' and 'rs2252745' have the same position.
+Warning: Variants 'rs6919835_dup' and 'rs6919835' have the same position.
+Warning: Variants 'rs2267639_dup' and 'rs2267639' have the same position.
+Warning: Variants 'rs2267640_dup' and 'rs2267640' have the same position.
+Warning: Variants 'rs3895681_dup' and 'rs3895681' have the same position.
+Warning: Variants 'rs2075016_dup' and 'rs2075016' have the same position.
+Warning: Variants 'rs2302347_dup' and 'rs2302347' have the same position.
+Warning: Variants 'rs9262123_dup' and 'rs9262123' have the same position.
+Warning: Variants 'rs2270172_dup' and 'rs2270172' have the same position.
+Warning: Variants 'rs2517565_dup' and 'rs2517565' have the same position.
+Warning: Variants 'rs3814959_dup' and 'rs3814959' have the same position.
+Warning: Variants 'rs6904236_dup' and 'rs6904236' have the same position.
+Warning: Variants 'rs9262564' and 'rs2523901' have the same position.
+Warning: Variants 'rs80122617' and 'rs1639106' have the same position.
+Warning: Variants 'rs9265575' and 'rs75610832' have the same position.
+Warning: Variants 'rs9267522' and 'rs11229' have the same position.
+Warning: Variants 'rs9267532_dup' and 'rs9267532' have the same position.
+Warning: Variants 'rs75412302' and 'rs12660719' have the same position.
+Warning: Variants 'rs9272689' and 'rs1129740' have the same position.
+Warning: Variants 'rs9273448' and 'rs1049225' have the same position.
+Warning: Variants 'rs77393431' and 'rs2395246' have the same position.
+Warning: Variants 'rs2621330' and 'rs111971502' have the same position.
+Warning: Variants 'rs241448' and 'rs184170313' have the same position.
+Warning: Variants 'rs241447' and 'rs111912622' have the same position.
+Warning: Variants 'rs4148876' and 'rs183316663' have the same position.
+Warning: Variants 'rs4576294' and 'rs189411634' have the same position.
+Warning: Variants 'rs1135216' and 'rs113253113' have the same position.
+Warning: Variants 'rs111423917' and 'rs1057141' have the same position.
+Warning: Variants 'rs113043820' and 'rs1042337' have the same position.
+Warning: Variants 'rs17617321' and 'rs111568424' have the same position.
+Warning: Variants 'rs111896056' and 'rs1063478' have the same position.
+Warning: Variants 'rs9689804' and 'rs9461833' have the same position.
+Warning: Variants 'rs149006866' and 'imm_6_34638671' have the same position.
+Warning: Variants 'rs187478346' and 'imm_6_34685644' have the same position.
+Warning: Variants 'rs191555481' and 'imm_6_35100023' have the same position.
+Warning: Variants 'rs138763422' and 'imm_6_42940985' have the same position.
+Warning: Variants 'vh_6_84164919' and 'rs151111787' have the same position.
+Warning: Variants 'rs143307121' and 'imm_6_91058409' have the same position.
+Warning: Variants 'rs142703057' and 'gw_060018' have the same position.
+Warning: Variants 'rs17066588_dup' and 'rs17066588' have the same position.
+Warning: Variants 'rs143040512' and 'chr6_106659789' have the same position.
+Warning: Variants 'rs144506815' and 'gw_060025' have the same position.
+Warning: Variants 'vh_6_111690223' and 'rs147451538' have the same position.
+Warning: Variants 'rs3840376' and 'rs139963397' have the same position.
+Warning: Variants 'rs35709539_dup' and 'rs35709539' have the same position.
+Warning: Variants 'rs17539385_dup' and 'rs17539385' have the same position.
+Warning: Variants 'rs34382476_dup' and 'rs34382476' have the same position.
+Warning: Variants 'rs34288099_dup' and 'rs34288099' have the same position.
+Warning: Variants 'rs35208445_dup' and 'rs35208445' have the same position.
+Warning: Variants 'rs35151650_dup' and 'rs35151650' have the same position.
+Warning: Variants 'rs34014721' and 'rs149225562' have the same position.
+Warning: Variants 'rs35856111_dup' and 'rs35856111' have the same position.
+Warning: Variants 'rs34530632_dup' and 'rs34530632' have the same position.
+Warning: Variants 'rs9481155_dup' and 'rs9481155' have the same position.
+Warning: Variants 'rs34863440_dup' and 'rs34863440' have the same position.
+Warning: Variants 'rs34896684_dup' and 'rs34896684' have the same position.
+Warning: Variants 'rs142888698' and '1kg_6_112031115' have the same position.
+Warning: Variants 'rs35815577_dup' and 'rs35815577' have the same position.
+Warning: Variants 'rs9487684' and 'rs12181024' have the same position.
+Warning: Variants 'rs9487684_dup' and 'rs9487684' have the same position.
+Warning: Variants 'rs13200059_dup' and 'rs13200059' have the same position.
+Warning: Variants 'rs148252989' and 'imm_6_127015176' have the same position.
+Warning: Variants 'rs144483537' and 'imm_6_128019915' have the same position.
+Warning: Variants 'rs146482577' and 'ccc-6-138010138-C-T' have the same
+position.
+Warning: Variants 'rs181271758' and 'ccc-6-138029323-A-T' have the same
+position.
+Warning: Variants 'rs139119651' and 'ccc-6-138158959-C-T' have the same
+position.
+Warning: Variants 'rs141580145' and 'ccc-6-138193878-A-G' have the same
+position.
+Warning: Variants 'rs60022938' and 'ccc-6-138212294-C-A' have the same
+position.
+Warning: Variants 'rs139691717' and 'gw_060038' have the same position.
+Warning: Variants 'rs138994608' and 'imm_6_142441713' have the same position.
+Warning: Variants 'rs33971186' and '6-167288526-TCT-INSERTION' have the same
+position.
+Warning: Variants 'rs143032681' and '6-167328564-T-INSERTION' have the same
+position.
+Warning: Variants 'rs141152171' and '6-167348639-T-DELETION' have the same
+position.
+Warning: Variants 'rs141419274' and '6-167351454-AT-DELETION' have the same
+position.
+Warning: Variants 'rs139138148' and '6-167360954-CA-INSERTION' have the same
+position.
+Warning: Variants 'rs143671584' and '6-167361534-A-INSERTION' have the same
+position.
+Warning: Variants 'rs143220601' and '6-167365513-A-INSERTION' have the same
+position.
+Warning: Variants 'rs145766462' and 'ccc-6-167384492-G-C' have the same
+position.
+Warning: Variants 'rs184487573' and 'ccc-6-167433461-A-G' have the same
+position.
+Warning: Variants 'rs146865326' and 'ccc-6-167433736-G-A' have the same
+position.
+Warning: Variants 'rs149588788' and 'imm_7_5309000' have the same position.
+Warning: Variants 'rs150740581' and 'imm_7_26812154' have the same position.
+Warning: Variants 'rs17259795_dup' and 'rs17259795' have the same position.
+Warning: Variants 'rs140917428' and 'ccc-7-50257160-T-C' have the same
+position.
+Warning: Variants 'rs150653286' and 'ccc-7-50260894-C-G' have the same
+position.
+Warning: Variants 'rs142031257' and '7-50266955-A-INSERTION' have the same
+position.
+Warning: Variants 'rs4917014_dup' and 'rs4917014' have the same position.
+Warning: Variants 'rs11185603_dup' and 'rs11185603' have the same position.
+Warning: Variants 'rs141436403' and 'ccc-7-50281967-C-T' have the same
+position.
+Warning: Variants 'rs148091944' and '1kg_7_50475486' have the same position.
+Warning: Variants 'rs145213426' and '1kg_7_50599753' have the same position.
+Warning: Variants 'rs3927926' and 'imm_7_74674981' have the same position.
+Warning: Variants 'rs140699524' and 'imm_7_74891094' have the same position.
+Warning: Variants 'rs2906477' and 'imm_7_74915503' have the same position.
+Warning: Variants 'rs150527025' and 'imm_7_74944862' have the same position.
+Warning: Variants 'rs1167795_dup' and 'rs1167795' have the same position.
+Warning: Variants 'rs1167800_dup' and 'rs1167800' have the same position.
+Warning: Variants 'vh_7_83472648' and 'rs147436181' have the same position.
+Warning: Variants 'rs8187799' and 'rs2230028' have the same position.
+Warning: Variants 'rs1799805' and 'CM930006' have the same position.
+Warning: Variants 'rs144534951' and 'imm_7_107372568' have the same position.
+Warning: Variants 'rs729302_dup' and 'rs729302' have the same position.
+Warning: Variants 'rs142070075' and 'imm_7_128360963' have the same position.
+Warning: Variants 'rs4728142_dup' and 'rs4728142' have the same position.
+Warning: Variants 'rs3807306_dup' and 'rs3807306' have the same position.
+Warning: Variants 'rs142400064' and 'gw_070004' have the same position.
+Warning: Variants 'rs139344585' and 'imm_7_128519609' have the same position.
+Warning: Variants 'rs142986577' and 'imm_7_153025516' have the same position.
+Warning: Variants 'rs146257455' and 'imm_7_153073476' have the same position.
+Warning: Variants 'rs7002137_dup' and 'rs7002137' have the same position.
+Warning: Variants 'rs138899232' and '1kg_8_10806163' have the same position.
+Warning: Variants 'rs139983091' and '1kg_8_10879619' have the same position.
+Warning: Variants 'rs59104590' and '1kg_8_11055852' have the same position.
+Warning: Variants 'rs9644737_dup' and 'rs9644737' have the same position.
+Warning: Variants 'rs142820468' and 'imm_8_11355413' have the same position.
+Warning: Variants 'rs138250696' and '16_11404766' have the same position.
+Warning: Variants 'rs146738087' and 'imm_8_11405738' have the same position.
+Warning: Variants 'rs148814788' and 'imm_8_11466781' have the same position.
+Warning: Variants 'rs7005936' and 'rs1128434' have the same position.
+Warning: Variants 'rs149662041' and '1kg_8_57214664' have the same position.
+Warning: Variants 'rs140908187' and '1kg_8_79426961' have the same position.
+Warning: Variants 'rs149396552' and '1kg_8_79572243' have the same position.
+Warning: Variants 'rs7837755_dup' and 'rs7837755' have the same position.
+Warning: Variants 'rs145652690' and '1kg_8_79705025' have the same position.
+Warning: Variants 'rs7842142_dup' and 'rs7842142' have the same position.
+Warning: Variants 'rs141396869' and '1kg_8_79766260' have the same position.
+Warning: Variants 'rs1054283_dup' and 'rs1054283' have the same position.
+Warning: Variants 'rs143557641' and '1kg_8_79795238' have the same position.
+Warning: Variants 'rs41308463' and '1kg_8_79835360' have the same position.
+Warning: Variants 'rs2717536_dup' and 'rs2717536' have the same position.
+Warning: Variants 'rs142515622' and 'ccc-8-126604410-G-C' have the same
+position.
+Warning: Variants 'rs150787645' and 'ccc-8-126606156-A-G' have the same
+position.
+Warning: Variants 'rs143342601' and 'ccc-8-126607023-T-C' have the same
+position.
+Warning: Variants 'rs146486957' and 'ccc-8-126607621-C-A' have the same
+position.
+Warning: Variants 'rs146680605' and 'ccc-8-126608169-T-C' have the same
+position.
+Warning: Variants 'rs149516560' and 'ccc-8-126611308-C-T' have the same
+position.
+Warning: Variants 'rs139182559' and 'ccc-8-126612516-C-T' have the same
+position.
+Warning: Variants 'rs11988455_dup' and 'rs11988455' have the same position.
+Warning: Variants 'rs142903137' and 'imm_9_4534640' have the same position.
+Warning: Variants 'rs183782536' and 'imm_9_34657220' have the same position.
+Warning: Variants 'rs144260901' and 'imm_9_34751635' have the same position.
+Warning: Variants 'rs139158594' and 'imm_9_34783293' have the same position.
+Warning: Variants 'rs146266330' and 'imm_9_34824134' have the same position.
+Warning: Variants 'rs144480373' and 'ccc-9-116648209-A-G' have the same
+position.
+Warning: Variants 'rs139899366' and 'ccc-9-116661407-T-C' have the same
+position.
+Warning: Variants 'rs33943117' and '9-116699396-ATTT-INSERTION' have the same
+position.
+Warning: Variants 'rs139072888' and 'imm_9_116736396' have the same position.
+Warning: Variants 'rs146213752' and 'imm_9_122636368' have the same position.
+Warning: Variants 'rs141672487' and 'imm_9_122704416' have the same position.
+Warning: Variants 'rs17611_dup' and 'rs17611' have the same position.
+Warning: Variants 'rs138049422' and '10-6119321-G-INSERTION' have the same
+position.
+Warning: Variants 'seq-NOVEL-1011' and 'rs138804076' have the same position.
+Warning: Variants 'rs147976081' and '10-6227813-C-INSERTION' have the same
+position.
+Warning: Variants 'rs138029501' and '10-6270122-A-DELETION' have the same
+position.
+Warning: Variants 'rs142929090' and '10-6276204-AA-DELETION' have the same
+position.
+Warning: Variants 'rs149536620' and 'ccc-10-6502436-C-A' have the same
+position.
+Warning: Variants 'rs141968041' and 'ccc-10-6560373-T-C' have the same
+position.
+Warning: Variants 'rs138745255' and 'ccc-10-6608360-C-T' have the same
+position.
+Warning: Variants 'rs150862362' and 'ccc-10-6608926-G-C' have the same
+position.
+Warning: Variants 'rs138704265' and 'ccc-10-6671739-G-A' have the same
+position.
+Warning: Variants 'rs149964032' and 'imm_10_35315947' have the same position.
+Warning: Variants 'rs140504046' and 'imm_10_35678707' have the same position.
+Warning: Variants 'rs147705098' and 'imm_10_35687330' have the same position.
+Warning: Variants 'rs151205518' and 'imm_10_35826410' have the same position.
+Warning: Variants 'rs7086333_dup' and 'rs7086333' have the same position.
+Warning: Variants 'rs2671694_dup' and 'rs2671694' have the same position.
+Warning: Variants 'rs1913517_dup' and 'rs1913517' have the same position.
+Warning: Variants 'rs148803028' and 'imm_10_49793474' have the same position.
+Warning: Variants 'rs143799950' and '1kg_10_59772589' have the same position.
+Warning: Variants 'rs140226558' and 'imm_10_61671881' have the same position.
+Warning: Variants 'rs142328479' and 'ccc-10-101257524-T-C' have the same
+position.
+Warning: Variants 'rs150621211' and 'ccc-10-101315858-G-A' have the same
+position.
+Warning: Variants 'vh_10_123660495' and 'rs148095496' have the same position.
+Warning: Variants 'rs150653380' and 'imm_11_410139' have the same position.
+Warning: Variants 'rs41294870_dup' and 'rs41294870' have the same position.
+Warning: Variants 'rs147254185' and 'imm_11_562060' have the same position.
+Warning: Variants 'rs142670659' and 'gw_110006' have the same position.
+Warning: Variants 'vh_11_5799110' and 'rs151281953' have the same position.
+Warning: Variants 'rs2553794_dup' and 'rs2553794' have the same position.
+Warning: Variants 'rs2553787_dup' and 'rs2553787' have the same position.
+Warning: Variants 'rs145165166' and '1kg_11_35071018' have the same position.
+Warning: Variants 'rs353581_dup' and 'rs353581' have the same position.
+Warning: Variants 'rs150596727' and 'imm_11_60490544' have the same position.
+Warning: Variants 'seq-rs4284411' and 'rs4284411' have the same position.
+Warning: Variants 'seq-rs9667092' and 'rs9667092' have the same position.
+Warning: Variants 'rs71473314' and 'imm_11_75887309' have the same position.
+Warning: Variants 'rs138191744' and '1kg_11_113766844' have the same position.
+Warning: Variants 'rs144915901' and '1kg_11_113973648' have the same position.
+Warning: Variants 'rs185818354' and '1kg_11_113979047' have the same position.
+Warning: Variants 'rs4252249' and 'rs2229112' have the same position.
+Warning: Variants 'rs148643334' and 'imm_11_117863362' have the same position.
+Warning: Variants 'rs144424384' and 'imm_11_117926412' have the same position.
+Warning: Variants 'rs145968026' and 'imm_11_117927051' have the same position.
+Warning: Variants 'rs573905_dup' and 'rs573905' have the same position.
+Warning: Variants 'rs4639966_dup' and 'rs4639966' have the same position.
+Warning: Variants 'rs141784098' and 'imm_11_127768750' have the same position.
+Warning: Variants 'rs184950206' and 'imm_11_127958063' have the same position.
+Warning: Variants 'rs149113888' and 'ccc-12-6333432-T-C' have the same
+position.
+Warning: Variants 'rs145325789' and 'ccc-12-6388072-G-A' have the same
+position.
+Warning: Variants 'rs138972939' and 'imm_12_9550830' have the same position.
+Warning: Variants 'rs2639076' and 'imm_12_9599290' have the same position.
+Warning: Variants 'rs151060196' and 'imm_12_9637183' have the same position.
+Warning: Variants 'rs147557175' and 'imm_12_13417423' have the same position.
+Warning: Variants 'rs149219011' and 'imm_12_38031891' have the same position.
+Warning: Variants 'rs146202935' and 'imm_12_38794135' have the same position.
+Warning: Variants 'rs145873901' and 'imm_12_38858065' have the same position.
+Warning: Variants 'rs145665119' and 'imm_12_39078119' have the same position.
+Warning: Variants 'rs143218501' and 'imm_12_39112405' have the same position.
+Warning: Variants 'rs2069407_dup' and 'rs2069407' have the same position.
+Warning: Variants 'rs148999821' and '12-54677401-TG-DELETION' have the same
+position.
+Warning: Variants 'seq-NOVEL-4742' and 'rs149449095' have the same position.
+Warning: Variants 'rs138092423' and '12-54743243-C-DELETION' have the same
+position.
+Warning: Variants 'rs34358051' and '12-54819630-G-INSERTION' have the same
+position.
+Warning: Variants 'rs138503912' and '12-54981728-T-INSERTION' have the same
+position.
+Warning: Variants 'rs149809605' and 'imm_12_56180599' have the same position.
+Warning: Variants 'rs138975273' and 'ccc-12-56378092-G-T' have the same
+position.
+Warning: Variants 'rs142394086' and 'ccc-12-56469391-C-T' have the same
+position.
+Warning: Variants 'rs138164344' and 'ccc-12-56521149-T-C' have the same
+position.
+Warning: Variants 'rs143818581' and 'imm_12_56559777' have the same position.
+Warning: Variants 'rs149007412' and 'imm_12_93499960' have the same position.
+Warning: Variants 'rs138688819' and 'imm_12_110591701' have the same position.
+Warning: Variants 'rs187356003' and 'imm_12_110999988' have the same position.
+Warning: Variants 'rs138778943' and 'imm_12_111479100' have the same position.
+Warning: Variants 'rs140979865' and 'imm_12_122147832' have the same position.
+Warning: Variants 'rs191114234' and 'imm_12_122283023' have the same position.
+Warning: Variants 'rs140509787' and 'imm_12_127827049' have the same position.
+Warning: Variants 'rs12305142_dup' and 'rs12305142' have the same position.
+Warning: Variants 'rs1471778_dup' and 'rs1471778' have the same position.
+Warning: Variants 'rs12321679_dup' and 'rs12321679' have the same position.
+Warning: Variants 'rs10847691_dup' and 'rs10847691' have the same position.
+Warning: Variants 'rs10773578_dup' and 'rs10773578' have the same position.
+Warning: Variants 'rs2170988_dup' and 'rs2170988' have the same position.
+Warning: Variants 'rs959989_dup' and 'rs959989' have the same position.
+Warning: Variants 'rs11059923_dup' and 'rs11059923' have the same position.
+Warning: Variants 'rs11059927_dup' and 'rs11059927' have the same position.
+Warning: Variants 'rs3741615_dup' and 'rs3741615' have the same position.
+Warning: Variants 'rs10847697_dup' and 'rs10847697' have the same position.
+Warning: Variants 'rs1385374_dup' and 'rs1385374' have the same position.
+Warning: Variants 'rs11059933_dup' and 'rs11059933' have the same position.
+Warning: Variants 'rs9512464_dup' and 'rs9512464' have the same position.
+Warning: Variants 'rs9551344_dup' and 'rs9551344' have the same position.
+Warning: Variants 'rs1556040_dup' and 'rs1556040' have the same position.
+Warning: Variants 'rs1556039_dup' and 'rs1556039' have the same position.
+Warning: Variants 'rs9553939_dup' and 'rs9553939' have the same position.
+Warning: Variants 'rs9579054_dup' and 'rs9579054' have the same position.
+Warning: Variants 'rs145746085' and '1kg_13_41889002' have the same position.
+Warning: Variants 'rs143124698' and 'imm_13_43223377' have the same position.
+Warning: Variants 'rs151319278' and 'imm_13_43435888' have the same position.
+Warning: Variants 'rs141504290' and '1kg_13_98859670' have the same position.
+Warning: Variants 'rs150499732' and 'imm_14_22918403' have the same position.
+Warning: Variants 'rs144870521' and '1kg_14_34577487' have the same position.
+Warning: Variants 'rs148906062' and '1kg_14_80195909' have the same position.
+Warning: Variants 'rs137877366' and '1kg_14_80528446' have the same position.
+Warning: Variants 'rs142528374' and '1kg_14_87413201' have the same position.
+Warning: Variants 'rs140072531' and '1kg_14_87598392' have the same position.
+Warning: Variants 'rs141253332' and '1kg_14_87683458' have the same position.
+Warning: Variants 'rs145515678' and 'imm_14_91413647' have the same position.
+Warning: Variants 'rs150834200' and 'imm_14_97441462' have the same position.
+Warning: Variants 'rs144439587' and 'imm_14_97524645' have the same position.
+Warning: Variants 'rs148174661' and 'imm_14_97564406' have the same position.
+Warning: Variants 'rs146901832' and 'imm_15_36711802' have the same position.
+Warning: Variants 'rs147428832' and 'imm_15_63043098' have the same position.
+Warning: Variants 'rs147154214' and 'imm_15_76833384' have the same position.
+Warning: Variants 'rs140999457' and 'imm_15_76997535' have the same position.
+Warning: Variants 'rs139414307' and 'imm_15_77016318' have the same position.
+Warning: Variants 'seq-NOVEL-2476' and 'rs147240431' have the same position.
+Warning: Variants 'rs144730387' and '16-10932797-CA-DELETION' have the same
+position.
+Warning: Variants 'seq-NOVEL-2648' and 'rs181392699' have the same position.
+Warning: Variants 'seq-NOVEL-2718' and 'rs144019272' have the same position.
+Warning: Variants 'seq-NOVEL-2755' and 'rs144823185' have the same position.
+Warning: Variants 'seq-NOVEL-2975' and 'rs141648426' have the same position.
+Warning: Variants 'seq-NOVEL-3234' and 'rs146901729' have the same position.
+Warning: Variants 'seq-NOVEL-3244' and 'rs147349709' have the same position.
+Warning: Variants 'rs3901386_dup' and 'rs3901386' have the same position.
+Warning: Variants 'rs8061882_dup' and 'rs8061882' have the same position.
+Warning: Variants 'seq-NOVEL-3386' and 'rs139830685' have the same position.
+Warning: Variants 'rs7200940_dup' and 'rs7200940' have the same position.
+Warning: Variants 'rs12708716_dup' and 'rs12708716' have the same position.
+Warning: Variants 'rs12924729_dup' and 'rs12924729' have the same position.
+Warning: Variants 'rs3893660_dup' and 'rs3893660' have the same position.
+Warning: Variants 'rs12927355_dup' and 'rs12927355' have the same position.
+Warning: Variants 'rs9941107_dup' and 'rs9941107' have the same position.
+Warning: Variants 'rs7198004_dup' and 'rs7198004' have the same position.
+Warning: Variants 'rs7203150_dup' and 'rs7203150' have the same position.
+Warning: Variants 'rs9746695_dup' and 'rs9746695' have the same position.
+Warning: Variants 'rs8060411_dup' and 'rs8060411' have the same position.
+Warning: Variants 'seq-NOVEL-3823' and 'rs146283134' have the same position.
+Warning: Variants 'rs7184083_dup' and 'rs7184083' have the same position.
+Warning: Variants 'rs7203478_dup' and 'rs7203478' have the same position.
+Warning: Variants 'rs72530752' and '16-11138555-T-INSERTION' have the same
+position.
+Warning: Variants 'rs6498168_dup' and 'rs6498168' have the same position.
+Warning: Variants 'rs6498169_dup' and 'rs6498169' have the same position.
+Warning: Variants 'rs28087_dup' and 'rs28087' have the same position.
+Warning: Variants 'seq-NOVEL-3988' and 'rs144592538' have the same position.
+Warning: Variants 'rs27908_dup' and 'rs27908' have the same position.
+Warning: Variants 'rs193773_dup' and 'rs193773' have the same position.
+Warning: Variants 'rs193772_dup' and 'rs193772' have the same position.
+Warning: Variants 'rs28769_dup' and 'rs28769' have the same position.
+Warning: Variants 'rs8063769_dup' and 'rs8063769' have the same position.
+Warning: Variants 'rs12708719_dup' and 'rs12708719' have the same position.
+Warning: Variants 'rs152308_dup' and 'rs152308' have the same position.
+Warning: Variants 'rs152307_dup' and 'rs152307' have the same position.
+Warning: Variants 'rs705904_dup' and 'rs705904' have the same position.
+Warning: Variants 'rs152306_dup' and 'rs152306' have the same position.
+Warning: Variants 'rs4780354_dup' and 'rs4780354' have the same position.
+Warning: Variants 'rs4781046_dup' and 'rs4781046' have the same position.
+Warning: Variants 'rs1646066_dup' and 'rs1646066' have the same position.
+Warning: Variants 'rs1690492_dup' and 'rs1690492' have the same position.
+Warning: Variants 'rs1646067_dup' and 'rs1646067' have the same position.
+Warning: Variants 'rs1640922_dup' and 'rs1640922' have the same position.
+Warning: Variants 'rs1646070_dup' and 'rs1646070' have the same position.
+Warning: Variants 'rs1640923_dup' and 'rs1640923' have the same position.
+Warning: Variants 'rs1690496_dup' and 'rs1690496' have the same position.
+Warning: Variants 'rs193756_dup' and 'rs193756' have the same position.
+Warning: Variants 'rs9936951_dup' and 'rs9936951' have the same position.
+Warning: Variants 'rs8060821_dup' and 'rs8060821' have the same position.
+Warning: Variants 'rs12935269_dup' and 'rs12935269' have the same position.
+Warning: Variants 'rs11074956_dup' and 'rs11074956' have the same position.
+Warning: Variants 'rs181578_dup' and 'rs181578' have the same position.
+Warning: Variants 'rs181581_dup' and 'rs181581' have the same position.
+Warning: Variants 'rs9940551_dup' and 'rs9940551' have the same position.
+Warning: Variants 'rs408665_dup' and 'rs408665' have the same position.
+Warning: Variants 'rs80945_dup' and 'rs80945' have the same position.
+Warning: Variants 'rs181582_dup' and 'rs181582' have the same position.
+Warning: Variants 'rs149597_dup' and 'rs149597' have the same position.
+Warning: Variants 'rs1111186_dup' and 'rs1111186' have the same position.
+Warning: Variants 'rs16958175_dup' and 'rs16958175' have the same position.
+Warning: Variants 'rs4780355_dup' and 'rs4780355' have the same position.
+Warning: Variants 'rs193779_dup' and 'rs193779' have the same position.
+Warning: Variants 'rs193778_dup' and 'rs193778' have the same position.
+Warning: Variants 'rs146566517' and 'imm_16_11261380' have the same position.
+Warning: Variants 'rs243324_dup' and 'rs243324' have the same position.
+Warning: Variants 'rs243317_dup' and 'rs243317' have the same position.
+Warning: Variants 'rs243318_dup' and 'rs243318' have the same position.
+Warning: Variants 'rs1646019_dup' and 'rs1646019' have the same position.
+Warning: Variants 'rs243323_dup' and 'rs243323' have the same position.
+Warning: Variants 'rs8043625_dup' and 'rs8043625' have the same position.
+Warning: Variants 'rs11640138_dup' and 'rs11640138' have the same position.
+Warning: Variants 'rs7191538_dup' and 'rs7191538' have the same position.
+Warning: Variants 'rs415595_dup' and 'rs415595' have the same position.
+Warning: Variants 'rs431918_dup' and 'rs431918' have the same position.
+Warning: Variants 'rs367569_dup' and 'rs367569' have the same position.
+Warning: Variants 'rs393161_dup' and 'rs393161' have the same position.
+Warning: Variants 'rs16958199_dup' and 'rs16958199' have the same position.
+Warning: Variants 'rs1559393_dup' and 'rs1559393' have the same position.
+Warning: Variants 'rs1559394_dup' and 'rs1559394' have the same position.
+Warning: Variants 'rs425537_dup' and 'rs425537' have the same position.
+Warning: Variants 'rs4781055_dup' and 'rs4781055' have the same position.
+Warning: Variants 'rs146278684' and 'imm_16_11278120' have the same position.
+Warning: Variants 'rs11645592_dup' and 'rs11645592' have the same position.
+Warning: Variants 'rs7198849_dup' and 'rs7198849' have the same position.
+Warning: Variants 'rs11644626_dup' and 'rs11644626' have the same position.
+Warning: Variants 'rs423674_dup' and 'rs423674' have the same position.
+Warning: Variants 'rs737008_dup' and 'rs737008' have the same position.
+Warning: Variants 'rs2301365_dup' and 'rs2301365' have the same position.
+Warning: Variants 'rs949429_dup' and 'rs949429' have the same position.
+Warning: Variants 'rs7206749_dup' and 'rs7206749' have the same position.
+Warning: Variants 'rs1794019_dup' and 'rs1794019' have the same position.
+Warning: Variants 'rs12922733_dup' and 'rs12922733' have the same position.
+Warning: Variants 'rs4451969_dup' and 'rs4451969' have the same position.
+Warning: Variants 'rs181694_dup' and 'rs181694' have the same position.
+Warning: Variants 'rs243315_dup' and 'rs243315' have the same position.
+Warning: Variants 'rs497184_dup' and 'rs497184' have the same position.
+Warning: Variants 'rs1690500_dup' and 'rs1690500' have the same position.
+Warning: Variants 'rs11640295_dup' and 'rs11640295' have the same position.
+Warning: Variants 'rs1874021_dup' and 'rs1874021' have the same position.
+Warning: Variants 'rs8057417_dup' and 'rs8057417' have the same position.
+Warning: Variants 'rs7206320_dup' and 'rs7206320' have the same position.
+Warning: Variants 'rs6498179_dup' and 'rs6498179' have the same position.
+Warning: Variants 'rs4340345_dup' and 'rs4340345' have the same position.
+Warning: Variants 'rs4238603_dup' and 'rs4238603' have the same position.
+Warning: Variants 'rs12599908_dup' and 'rs12599908' have the same position.
+Warning: Variants 'rs880341_dup' and 'rs880341' have the same position.
+Warning: Variants 'rs8048768_dup' and 'rs8048768' have the same position.
+Warning: Variants 'rs1019551_dup' and 'rs1019551' have the same position.
+Warning: Variants 'rs12596260_dup' and 'rs12596260' have the same position.
+Warning: Variants 'rs2867936_dup' and 'rs2867936' have the same position.
+Warning: Variants 'rs12927773_dup' and 'rs12927773' have the same position.
+Warning: Variants 'rs12922090_dup' and 'rs12922090' have the same position.
+Warning: Variants 'rs141997734' and 'imm_16_28204047' have the same position.
+Warning: Variants 'rs138636323' and 'imm_16_28237089' have the same position.
+Warning: Variants 'rs143399275' and 'imm_16_28498479' have the same position.
+Warning: Variants 'rs183194577' and 'imm_16_28529078' have the same position.
+Warning: Variants 'rs139969273' and 'imm_16_28769125' have the same position.
+Warning: Variants 'rs139456978' and 'imm_16_28912344' have the same position.
+Warning: Variants 'rs144528335' and 'imm_16_28923866' have the same position.
+Warning: Variants 'rs144855141' and 'imm_16_30975000' have the same position.
+Warning: Variants 'rs149541838' and '2_31215861' have the same position.
+Warning: Variants 'rs149403364' and 'imm_16_31272015' have the same position.
+Warning: Variants 'rs2066844_dup' and 'rs2066844' have the same position.
+Warning: Variants 'rs5743277_dup' and 'rs5743277' have the same position.
+Warning: Variants 'rs5743293' and 'CI011899' have the same position.
+Warning: Variants 'rs150532850' and 'imm_16_67001354' have the same position.
+Warning: Variants 'rs138657920' and 'imm_16_73854664' have the same position.
+Warning: Variants 'rs138610379' and 'imm_16_73880396' have the same position.
+Warning: Variants 'rs147657744' and 'imm_16_73927237' have the same position.
+Warning: Variants 'rs140941496' and 'imm_17_15473002' have the same position.
+Warning: Variants 'rs182081499' and 'imm_17_22910984' have the same position.
+Warning: Variants 'rs150844209' and 'imm_17_22982981' have the same position.
+Warning: Variants 'rs144004051' and 'imm_17_23108046' have the same position.
+Warning: Variants 'rs4794990_dup' and 'rs4794990' have the same position.
+Warning: Variants 'rs12938546_dup' and 'rs12938546' have the same position.
+Warning: Variants 'rs3785907_dup' and 'rs3785907' have the same position.
+Warning: Variants 'rs12150657_dup' and 'rs12150657' have the same position.
+Warning: Variants 'rs6505397_dup' and 'rs6505397' have the same position.
+Warning: Variants 'rs141403170' and '1kg_17_29543659' have the same position.
+Warning: Variants 'rs17542274_dup' and 'rs17542274' have the same position.
+Warning: Variants 'rs4794993_dup' and 'rs4794993' have the same position.
+Warning: Variants 'rs12601658_dup' and 'rs12601658' have the same position.
+Warning: Variants 'rs8075337_dup' and 'rs8075337' have the same position.
+Warning: Variants 'rs11655679_dup' and 'rs11655679' have the same position.
+Warning: Variants 'rs1029720_dup' and 'rs1029720' have the same position.
+Warning: Variants 'rs16969373_dup' and 'rs16969373' have the same position.
+Warning: Variants 'rs17652139_dup' and 'rs17652139' have the same position.
+Warning: Variants 'rs6505400_dup' and 'rs6505400' have the same position.
+Warning: Variants 'rs9893808_dup' and 'rs9893808' have the same position.
+Warning: Variants 'rs9889296_dup' and 'rs9889296' have the same position.
+Warning: Variants 'rs7210316_dup' and 'rs7210316' have the same position.
+Warning: Variants 'rs4795893_dup' and 'rs4795893' have the same position.
+Warning: Variants 'rs1860190_dup' and 'rs1860190' have the same position.
+Warning: Variants 'rs2857656_dup' and 'rs2857656' have the same position.
+Warning: Variants 'rs4586_dup' and 'rs4586' have the same position.
+Warning: Variants 'rs16969403_dup' and 'rs16969403' have the same position.
+Warning: Variants 'rs16969406_dup' and 'rs16969406' have the same position.
+Warning: Variants 'rs17809012_dup' and 'rs17809012' have the same position.
+Warning: Variants 'rs1860180_dup' and 'rs1860180' have the same position.
+Warning: Variants 'rs1233651_dup' and 'rs1233651' have the same position.
+Warning: Variants 'rs1233650_dup' and 'rs1233650' have the same position.
+Warning: Variants 'rs8082480_dup' and 'rs8082480' have the same position.
+Warning: Variants 'rs3138035_dup' and 'rs3138035' have the same position.
+Warning: Variants 'rs3138036_dup' and 'rs3138036' have the same position.
+Warning: Variants 'rs1897351_dup' and 'rs1897351' have the same position.
+Warning: Variants 'rs9913364_dup' and 'rs9913364' have the same position.
+Warning: Variants 'rs9909184_dup' and 'rs9909184' have the same position.
+Warning: Variants 'rs81036_dup' and 'rs81036' have the same position.
+Warning: Variants 'rs408121_dup' and 'rs408121' have the same position.
+Warning: Variants 'rs8072510_dup' and 'rs8072510' have the same position.
+Warning: Variants 'rs189993040' and 'imm_17_34657110' have the same position.
+Warning: Variants 'rs145398027' and 'imm_17_34945704' have the same position.
+Warning: Variants 'rs188353899' and 'imm_17_35273382' have the same position.
+Warning: Variants 'rs145809834' and 'gw_170028' have the same position.
+Warning: Variants 'rs140037728' and 'gw_170031' have the same position.
+Warning: Variants 'rs138667284' and 'imm_17_36848292' have the same position.
+Warning: Variants 'rs144632542' and 'imm_17_37598042' have the same position.
+Warning: Variants 'rs148545712' and 'ccc-17-37756119-C-T' have the same
+position.
+Warning: Variants 'rs143111617' and 'ccc-17-37856215-G-A' have the same
+position.
+Warning: Variants 'rs138862014' and '17-37861377-T-INSERTION' have the same
+position.
+Warning: Variants 'rs148285190' and 'ccc-17-37869098-C-T' have the same
+position.
+Warning: Variants 'rs181863436' and 'imm_17_37922852' have the same position.
+Warning: Variants 'rs141112514' and 'ccc-17-37923768-C-T' have the same
+position.
+Warning: Variants 'rs142460159' and 'ccc-17-37930898-G-A' have the same
+position.
+Warning: Variants 'vh_17_45513679' and 'rs141893882' have the same position.
+Warning: Variants 'rs145670888' and 'imm_17_45980800' have the same position.
+Warning: Variants 'rs191920064' and 'ccc-18-12807106-T-A' have the same
+position.
+Warning: Variants 'rs149850873' and 'ccc-18-12875120-G-A' have the same
+position.
+Warning: Variants 'rs145125428' and 'imm_18_12878970' have the same position.
+Warning: Variants 'rs8095304_dup' and 'rs8095304' have the same position.
+Warning: Variants 'rs1551821_dup' and 'rs1551821' have the same position.
+Warning: Variants 'rs147610990' and '18-65673346-A-INSERTION' have the same
+position.
+Warning: Variants 'rs138227044' and 'imm_18_65707901' have the same position.
+Warning: Variants 'rs193009317' and 'ccc-19-1086434-G-A' have the same
+position.
+Warning: Variants 'rs145277512' and 'ccc-19-1092649-C-T' have the same
+position.
+Warning: Variants 'rs368835_dup' and 'rs368835' have the same position.
+Warning: Variants 'rs281423_dup' and 'rs281423' have the same position.
+Warning: Variants 'rs2304237_dup' and 'rs2304237' have the same position.
+Warning: Variants 'rs281414_dup' and 'rs281414' have the same position.
+Warning: Variants 'rs144726883' and 'imm_19_10317296' have the same position.
+Warning: Variants 'rs34536443_dup' and 'rs34536443' have the same position.
+Warning: Variants 'rs12720356_dup' and 'rs12720356' have the same position.
+Warning: Variants 'rs2304256_dup' and 'rs2304256' have the same position.
+Warning: Variants 'rs280523_dup' and 'rs280523' have the same position.
+Warning: Variants 'rs146067009' and 'imm_19_10354814' have the same position.
+Warning: Variants 'rs2305743_dup' and 'rs2305743' have the same position.
+Warning: Variants 'rs436857_dup' and 'rs436857' have the same position.
+Warning: Variants 'rs885683_dup' and 'rs885683' have the same position.
+Warning: Variants 'rs147706800' and '1kg_19_18115108' have the same position.
+Warning: Variants 'rs143492548' and '1kg_19_18152082' have the same position.
+Warning: Variants 'rs141015940' and '1kg_19_18167867' have the same position.
+Warning: Variants 'rs1042050_dup' and 'rs1042050' have the same position.
+Warning: Variants 'rs17797780_dup' and 'rs17797780' have the same position.
+Warning: Variants 'rs9413_dup' and 'rs9413' have the same position.
+Warning: Variants 'rs148859834' and '1kg_19_18255426' have the same position.
+Warning: Variants 'rs144495330' and 'imm_19_40922710' have the same position.
+Warning: Variants 'vh_19_46905510' and 'rs140477498' have the same position.
+Warning: Variants 'rs150228428' and 'imm_19_53831912' have the same position.
+Warning: Variants 'rs144755455' and 'imm_19_53859598' have the same position.
+Warning: Variants 'rs602662_dup' and 'rs602662' have the same position.
+Warning: Variants 'rs143820692' and 'imm_19_56018762' have the same position.
+Warning: Variants 'seq-t1d-19-59686247-G-T' and 'rs183501519' have the same
+position.
+Warning: Variants 'seq-t1d-19-59689512-G-A' and 'rs188553100' have the same
+position.
+Warning: Variants 'seq-rs35467489' and 'rs35467489' have the same position.
+Warning: Variants 'seq-rs270785' and 'rs270785' have the same position.
+Warning: Variants 'seq-rs34497076' and 'rs34497076' have the same position.
+Warning: Variants 'seq-rs62131745' and 'rs62131745' have the same position.
+Warning: Variants 'seq-rs35093205' and 'rs35093205' have the same position.
+Warning: Variants 'seq-rs270790' and 'rs270790' have the same position.
+Warning: Variants 'seq-rs62132666' and 'rs62132666' have the same position.
+Warning: Variants 'seq-rs2240936' and 'rs2240936' have the same position.
+Warning: Variants 'rs587560' and 'rs35987710' have the same position.
+Warning: Variants 'seq-rs2569686' and 'rs2569686' have the same position.
+Warning: Variants 'seq-rs56148090' and 'rs613238' have the same position.
+Warning: Variants 'seq-rs633522' and 'rs633522' have the same position.
+Warning: Variants 'seq-rs658919' and 'rs658919' have the same position.
+Warning: Variants 'seq-rs685323' and 'rs685323' have the same position.
+Warning: Variants 'seq-t1d-19-59999531-G-A' and 'rs190480734' have the same
+position.
+Warning: Variants 'seq-rs687530' and 'rs687530' have the same position.
+Warning: Variants 'seq-rs34508934' and 'rs34508934' have the same position.
+Warning: Variants 'seq-rs62123050' and 'rs62123050' have the same position.
+Warning: Variants 'seq-rs34078188' and 'rs34078188' have the same position.
+Warning: Variants 'seq-rs56409217' and 'rs589158' have the same position.
+Warning: Variants 'seq-rs597598' and 'rs597598' have the same position.
+Warning: Variants 'seq-rs598452' and 'rs598452' have the same position.
+Warning: Variants 'seq-rs55761930' and 'rs618835' have the same position.
+Warning: Variants 'seq-rs10500318' and 'rs10500318' have the same position.
+Warning: Variants 'seq-rs592645' and 'rs592645' have the same position.
+Warning: Variants 'seq-rs604999' and 'rs604999' have the same position.
+Warning: Variants 'seq-t1d-19-60014013-A-C' and 'rs184787616' have the same
+position.
+Warning: Variants 'seq-rs674268' and 'rs674268' have the same position.
+Warning: Variants 'seq-rs10407958' and 'rs10407958' have the same position.
+Warning: Variants 'seq-rs1654644' and 'rs1654644' have the same position.
+Warning: Variants 'seq-rs3816051' and 'rs3816051' have the same position.
+Warning: Variants 'seq-rs1865096' and 'rs1865096' have the same position.
+Warning: Variants 'seq-t1d-19-60210022-T-C' and 'rs147701435' have the same
+position.
+Warning: Variants 'seq-t1d-19-60321540-T-G' and 'rs141714614' have the same
+position.
+Warning: Variants 'rs2074071_dup' and 'rs2074071' have the same position.
+Warning: Variants 'rs41414246' and 'imm_20_1538980' have the same position.
+Warning: Variants 'rs146195314' and 'ccc-20-44148919-G-A' have the same
+position.
+Warning: Variants 'rs138099998' and 'imm_20_61755942' have the same position.
+Warning: Variants 'rs150760019' and 'imm_20_61831589' have the same position.
+Warning: Variants 'rs143189555' and 'imm_21_15710600' have the same position.
+Warning: Variants 'rs149088246' and 'ccc-21-15728045-G-A' have the same
+position.
+Warning: Variants 'rs144596512' and 'ccc-21-15736953-A-C' have the same
+position.
+Warning: Variants 'rs146450006' and 'ccc-21-39310231-C-T' have the same
+position.
+Warning: Variants 'rs151265958' and 'ccc-21-39320011-C-T' have the same
+position.
+Warning: Variants 'rs147023104' and 'imm_21_42060154' have the same position.
+Warning: Variants 'rs142541350' and 'imm_21_44419708' have the same position.
+Warning: Variants 'rs139576164' and '21-44443170-AT-INSERTION' have the same
+position.
+Warning: Variants 'rs143358027' and 'ccc-21-44445341-T-G' have the same
+position.
+Warning: Variants 'rs143269666' and 'ccc-21-44447768-G-A' have the same
+position.
+Warning: Variants 'rs144703009' and 'imm_21_44476343' have the same position.
+Warning: Variants 'rs137916230' and 'ccc-21-44477039-A-G' have the same
+position.
+Warning: Variants 'rs146848311' and 'imm_22_28337463' have the same position.
+Warning: Variants 'rs140115733' and 'imm_22_28431886' have the same position.
+Warning: Variants 'rs9622574_dup' and 'rs9622574' have the same position.
+Warning: Variants 'rs139422188' and 'imm_22_38033359' have the same position.
+Warning: Variants 'vh_22_39843673' and 'rs142030651' have the same position.
+Performing single-pass merge (598 people, 192673 variants).
+Merged fileset written to output/t1dcc-merge.bed + output/t1dcc-merge.bim +
+output/t1dcc-merge.fam .
+192673 variants loaded from .bim file.
+598 people (309 males, 289 females) loaded from .fam.
+598 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 360 founders and 238 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.748747.
+192673 variants and 598 people pass filters and QC.
+Among remaining phenotypes, 241 are cases and 357 are controls.
+--make-bed to output/t1dcc.bed + output/t1dcc.bim + output/t1dcc.fam ... done.
+
+End time: Wed Jun 10 18:21:29 2020

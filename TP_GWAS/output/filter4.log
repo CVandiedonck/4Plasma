@@ -1,0 +1,28 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --bfile output/filter3
+  --maf 0.01
+  --make-bed
+  --out output/filter4
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:36:29 2020
+
+Random number seed: 1591806989
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+113483 variants loaded from .bim file.
+598 people (309 males, 289 females) loaded from .fam.
+598 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 360 founders and 238 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99623.
+1398 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+112085 variants and 598 people pass filters and QC.
+Among remaining phenotypes, 241 are cases and 357 are controls.
+--make-bed to output/filter4.bed + output/filter4.bim + output/filter4.fam ...
+done.
+
+End time: Wed Jun 10 18:36:29 2020

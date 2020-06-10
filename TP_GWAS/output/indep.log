@@ -1,0 +1,47 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --bfile output/withoutmhc
+  --indep 50 5 2
+  --out output/indep
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:46:42 2020
+
+Random number seed: 1591807602
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+105001 variants loaded from .bim file.
+577 people (296 males, 281 females) loaded from .fam.
+577 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 358 founders and 219 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998781.
+105001 variants and 577 people pass filters and QC.
+Among remaining phenotypes, 220 are cases and 357 are controls.
+Pruned 8547 variants from chromosome 1, leaving 3366.
+Pruned 9226 variants from chromosome 2, leaving 3233.
+Pruned 5275 variants from chromosome 3, leaving 2045.
+Pruned 2164 variants from chromosome 4, leaving 1515.
+Pruned 5630 variants from chromosome 5, leaving 2237.
+Pruned 4358 variants from chromosome 6, leaving 1920.
+Pruned 3014 variants from chromosome 7, leaving 1590.
+Pruned 3423 variants from chromosome 8, leaving 1595.
+Pruned 2777 variants from chromosome 9, leaving 1306.
+Pruned 4544 variants from chromosome 10, leaving 1827.
+Pruned 3366 variants from chromosome 11, leaving 1587.
+Pruned 3828 variants from chromosome 12, leaving 1631.
+Pruned 1590 variants from chromosome 13, leaving 924.
+Pruned 2901 variants from chromosome 14, leaving 1047.
+Pruned 843 variants from chromosome 15, leaving 738.
+Pruned 2906 variants from chromosome 16, leaving 1227.
+Pruned 2140 variants from chromosome 17, leaving 952.
+Pruned 1178 variants from chromosome 18, leaving 735.
+Pruned 1721 variants from chromosome 19, leaving 843.
+Pruned 1455 variants from chromosome 20, leaving 813.
+Pruned 782 variants from chromosome 21, leaving 411.
+Pruned 1244 variants from chromosome 22, leaving 547.
+Pruning complete.  72912 of 105001 variants removed.
+Marker lists written to output/indep.prune.in and output/indep.prune.out .
+
+End time: Wed Jun 10 18:46:44 2020

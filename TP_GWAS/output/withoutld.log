@@ -1,0 +1,27 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --bfile output/withoutmhc
+  --extract output/indep.prune.in
+  --make-bed
+  --out output/withoutld
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:46:57 2020
+
+Random number seed: 1591807617
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+105001 variants loaded from .bim file.
+577 people (296 males, 281 females) loaded from .fam.
+577 phenotype values loaded from .fam.
+--extract: 32089 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 358 founders and 219 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998734.
+32089 variants and 577 people pass filters and QC.
+Among remaining phenotypes, 220 are cases and 357 are controls.
+--make-bed to output/withoutld.bed + output/withoutld.bim +
+output/withoutld.fam ... done.
+
+End time: Wed Jun 10 18:46:57 2020

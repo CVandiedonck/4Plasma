@@ -1,0 +1,27 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --bfile output/ic_cases
+  --exclude input/toexclude.txt
+  --make-bed
+  --out output/ic_cases_autosomes
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:16:09 2020
+
+Random number seed: 1591805769
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+196524 variants loaded from .bim file.
+241 people (127 males, 114 females) loaded from .fam.
+241 phenotype values loaded from .fam.
+--exclude: 191987 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3 founders and 238 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.966511.
+191987 variants and 241 people pass filters and QC.
+Among remaining phenotypes, 241 are cases and 0 are controls.
+--make-bed to output/ic_cases_autosomes.bed + output/ic_cases_autosomes.bim +
+output/ic_cases_autosomes.fam ... done.
+
+End time: Wed Jun 10 18:16:09 2020

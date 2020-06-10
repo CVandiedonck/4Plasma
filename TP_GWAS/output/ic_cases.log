@@ -1,0 +1,29 @@
+PLINK v1.90b6.17 64-bit (28 Apr 2020)
+Options in effect:
+  --bfile input/ic_cases
+  --make-bed
+  --out output/ic_cases
+
+Hostname: 7920-Tower
+Working directory: /home/claire/Teaching/4Plasma/TP_GWAS
+Start time: Wed Jun 10 18:15:07 2020
+
+Random number seed: 1591805707
+128575 MB RAM detected; reserving 64287 MB for main workspace.
+196524 variants loaded from .bim file.
+241 people (127 males, 114 females) loaded from .fam.
+241 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3 founders and 238 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 31024 het. haploid genotypes present (see output/ic_cases.hh ); many
+commands treat these as missing.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.964361.
+196524 variants and 241 people pass filters and QC.
+Among remaining phenotypes, 241 are cases and 0 are controls.
+--make-bed to output/ic_cases.bed + output/ic_cases.bim + output/ic_cases.fam
+... done.
+
+End time: Wed Jun 10 18:15:07 2020
