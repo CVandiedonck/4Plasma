@@ -5,6 +5,7 @@ channels:
   - conda-forge
 dependencies:
   - jupyterlab=2
+  - pandas
   - nbresuse
   - python>=3.7
   - pip
