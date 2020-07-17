@@ -5,7 +5,6 @@ jupyter labextension install \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text
 
-python -m bash_kernel.install --sys-prefix
 
 # Install KING: Kinship-based INference for Gwas
 # http://people.virginia.edu/~wc9c/KING/
